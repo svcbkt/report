@@ -25,6 +25,7 @@ import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, time as dtime
+from zoneinfo import ZoneInfo
 from email.utils import parsedate_to_datetime
 import math
 import time
@@ -35,6 +36,8 @@ import sys
 import html
 import webbrowser
 import getpass
+
+TAIPEI_TZ = ZoneInfo("Asia/Taipei")
 
 try:
     from google import genai
@@ -89,14 +92,17 @@ GEMINI_API_KEY = resolve_api_key()
 
 def get_last_trading_close(now=None, close_hour=13, close_minute=30):
     """計算「最近一個已經收盤的交易日」之收盤時間，只排除週六週日，
-    不排除國定假日／颱風假等特殊休市日（遇到連假新聞區間會保守地變長）。"""
+    不排除國定假日／颱風假等特殊休市日（遇到連假新聞區間會保守地變長）。
+    一律以台北時間為準，不受執行伺服器所在時區影響。"""
     if now is None:
-        now = datetime.now()
+        now = datetime.now(TAIPEI_TZ)
+    elif now.tzinfo is None:
+        now = now.replace(tzinfo=TAIPEI_TZ)
 
     days_back = 0
     while True:
         candidate_date = (now - timedelta(days=days_back)).date()
-        candidate_close = datetime.combine(candidate_date, dtime(close_hour, close_minute))
+        candidate_close = datetime.combine(candidate_date, dtime(close_hour, close_minute), tzinfo=TAIPEI_TZ)
         is_weekday = candidate_date.weekday() < 5
         if is_weekday and candidate_close <= now:
             return candidate_close
@@ -105,7 +111,7 @@ def get_last_trading_close(now=None, close_hour=13, close_minute=30):
 
 def get_news_text(query_keyword, since_dt=None):
     """抓取「since_dt（通常是上一交易日收盤）到現在」這段時間內的新聞標題。"""
-    now = datetime.now()
+    now = datetime.now(TAIPEI_TZ)
     if since_dt is None:
         since_dt = get_last_trading_close(now)
 
@@ -136,8 +142,8 @@ def get_news_text(query_keyword, since_dt=None):
             if pubdate_el is not None and pubdate_el.text:
                 try:
                     pub_dt = parsedate_to_datetime(pubdate_el.text)
-                    pub_dt_local = pub_dt.astimezone().replace(tzinfo=None) if pub_dt.tzinfo else pub_dt
-                    if pub_dt_local < since_dt:
+                    pub_dt_taipei = pub_dt.astimezone(TAIPEI_TZ) if pub_dt.tzinfo else pub_dt.replace(tzinfo=TAIPEI_TZ)
+                    if pub_dt_taipei < since_dt:
                         continue
                 except Exception:
                     pass
@@ -417,7 +423,7 @@ def generate_html_report(current_time, market_results, company_results, since_dt
 </body>
 </html>
 """
-    filename = f"report_{datetime.now().strftime('%Y%m%d_%H%M')}.html"
+    filename = f"report_{datetime.now(TAIPEI_TZ).strftime('%Y%m%d_%H%M')}.html"
     filepath = os.path.join(SCRIPT_DIR, filename)
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(html_content)
@@ -487,7 +493,7 @@ def build_data_json(market_results, company_results, quotes, since_dt):
             "tone": HOLDING_TONE_MAP.get(d.get("direction"), "watch"),
         })
 
-    now = datetime.now().astimezone()
+    now = datetime.now(TAIPEI_TZ)
     return {
         "generated_at": now.isoformat(),
         "report_date_text": now.strftime("%Y 年 %m 月 %d 日") + "，" + WEEKDAYS[now.weekday()],
@@ -509,7 +515,7 @@ def build_data_json(market_results, company_results, quotes, since_dt):
 # ==========================================================
 
 if __name__ == "__main__":
-    now = datetime.now()
+    now = datetime.now(TAIPEI_TZ)
     current_time = now.strftime('%Y-%m-%d %H:%M')
     since_dt = get_last_trading_close(now)
     print("=" * 60)
