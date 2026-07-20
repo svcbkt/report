@@ -2,8 +2,10 @@ name: Daily Pre-Market Report
 
 on:
   schedule:
+    # UTC 00:00 週一~週五 = 台灣時間(UTC+8) 08:00 週一~週五
+    # 如果想要更接近開盤（09:00）再多留一點緩衝，可以改成 '30 23 * * 0-4'（前一天UTC 23:30）
     - cron: '0 0 * * 1-5'
-  workflow_dispatch: {}
+  workflow_dispatch: {}   # 允許在 GitHub 網頁上手動點擊執行，方便第一次測試
 
 permissions:
   contents: write
@@ -11,7 +13,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: "pages-daily-report"
   cancel-in-progress: false
 
 jobs:
