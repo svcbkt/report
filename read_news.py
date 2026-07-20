@@ -211,6 +211,93 @@ def fetch_quotes():
     return quotes
 
 
+def fetch_stock_quotes(companies_cfg):
+    """抓取追蹤個股目前股價（yfinance，非逐秒即時，但比每日一次更新頻繁）。"""
+    quotes = {}
+    if yf is None:
+        return quotes
+    for c in companies_cfg:
+        symbol = c["symbol"]
+        try:
+            hist = yf.Ticker(f"{symbol}.TW").history(period="5d", interval="1d")
+            if hist.empty or len(hist) < 2:
+                print(f"[warn] {symbol} 股價資料不足", file=sys.stderr)
+                continue
+            last_close = float(hist["Close"].iloc[-1])
+            prev_close = float(hist["Close"].iloc[-2])
+            change = last_close - prev_close
+            change_pct = (change / prev_close * 100) if prev_close else 0.0
+            trend = "positive" if change > 0 else "negative" if change < 0 else "neutral-text"
+            quotes[symbol] = {
+                "value": f"{last_close:,.2f}", "change": f"{change_pct:+.2f}%", "trend": trend,
+            }
+        except Exception as e:
+            print(f"[warn] 抓取 {symbol} 股價失敗：{e}", file=sys.stderr)
+    return quotes
+
+
+def _to_int(value):
+    try:
+        return int(str(value).replace(",", "").strip())
+    except (TypeError, ValueError):
+        return 0
+
+
+def fetch_institutional_and_margin(companies_cfg):
+    """用證交所 OpenAPI 抓「上一個已公布交易日」的三大法人買賣超與融資融券餘額。
+    這兩份資料證交所本身就是一天只公布一次（收盤後），所以不需要在盤中頻繁抓取，
+    每日主報告執行一次即可。回傳 dict: 股票代號 -> {institutional: {...}, margin: {...}}"""
+    symbols = {c["symbol"] for c in companies_cfg}
+    result = {s: {} for s in symbols}
+
+    try:
+        req = urllib.request.Request(
+            "https://openapi.twse.com.tw/v1/fund/T86",
+            headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'},
+        )
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            rows = json.loads(resp.read().decode('utf-8'))
+        for row in rows:
+            code = (row.get("證券代號") or "").strip()
+            if code not in symbols:
+                continue
+            foreign_net = _to_int(row.get("外陸資買賣超股數(不含外資自營商)")) + _to_int(row.get("外資自營商買賣超股數"))
+            result[code]["institutional"] = {
+                "foreign_net": foreign_net,
+                "trust_net": _to_int(row.get("投信買賣超股數")),
+                "dealer_net": _to_int(row.get("自營商買賣超股數")),
+                "total_net": _to_int(row.get("三大法人買賣超股數")),
+            }
+    except Exception as e:
+        print(f"[warn] 抓取三大法人買賣超失敗：{e}", file=sys.stderr)
+
+    try:
+        req = urllib.request.Request(
+            "https://openapi.twse.com.tw/v1/exchangeReport/MI_MARGN",
+            headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'},
+        )
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            rows = json.loads(resp.read().decode('utf-8'))
+        for row in rows:
+            code = (row.get("股票代號") or "").strip()
+            if code not in symbols:
+                continue
+            margin_today = _to_int(row.get("融資今日餘額"))
+            margin_prev = _to_int(row.get("融資前日餘額"))
+            short_today = _to_int(row.get("融券今日餘額"))
+            short_prev = _to_int(row.get("融券前日餘額"))
+            result[code]["margin"] = {
+                "margin_balance": margin_today,
+                "margin_change": margin_today - margin_prev,
+                "short_balance": short_today,
+                "short_change": short_today - short_prev,
+            }
+    except Exception as e:
+        print(f"[warn] 抓取融資融券失敗：{e}", file=sys.stderr)
+
+    return result
+
+
 # ==========================================================
 # 🤖 AI 分析（沿用原始邏輯，company 分析新增 direction 欄位）
 # ==========================================================
@@ -457,7 +544,9 @@ def build_markets_block(quotes):
             for name in order if name in quotes]
 
 
-def build_data_json(market_results, company_results, quotes, since_dt):
+def build_data_json(market_results, company_results, quotes, since_dt, stock_quotes=None, institutional_margin=None):
+    stock_quotes = stock_quotes or {}
+    institutional_margin = institutional_margin or {}
     valid_market = [(name, d) for name, d in market_results if d]
 
     signal_row = [
@@ -486,16 +575,28 @@ def build_data_json(market_results, company_results, quotes, since_dt):
         if not d:
             continue
         symbol = COMPANY_SYMBOL_BY_NAME.get(name, "")
-        watchlist_holdings.append({
+        entry = {
             "symbol": symbol, "name": name,
             "signal": d.get("direction", "中性"),
             "reason": d.get("outlook", "-"),
             "tone": HOLDING_TONE_MAP.get(d.get("direction"), "watch"),
-        })
+        }
+        sq = stock_quotes.get(symbol)
+        if sq:
+            entry["price"] = sq["value"]
+            entry["price_change"] = sq["change"]
+            entry["price_trend"] = sq["trend"]
+        extra = institutional_margin.get(symbol, {})
+        if "institutional" in extra:
+            entry["institutional"] = extra["institutional"]
+        if "margin" in extra:
+            entry["margin"] = extra["margin"]
+        watchlist_holdings.append(entry)
 
     now = datetime.now(TAIPEI_TZ)
     return {
         "generated_at": now.isoformat(),
+        "prices_updated_at": now.isoformat(),
         "report_date_text": now.strftime("%Y 年 %m 月 %d 日") + "，" + WEEKDAYS[now.weekday()],
         "news_window": since_dt.strftime("%m/%d %H:%M") if since_dt else "",
         "market_tone": overall_direction,
@@ -511,10 +612,49 @@ def build_data_json(market_results, company_results, quotes, since_dt):
 
 
 # ==========================================================
+# 📈 盤中報價專用模式（不重跑新聞/AI，只更新數字）
+# ==========================================================
+
+
+def run_quotes_only():
+    """盤中排程用：只重新抓報價、個股股價，寫回已存在的 data.json，
+    保留當天稍早產生的新聞摘要、法人與融資融券資料不變。"""
+    if not os.path.exists(DATA_JSON_PATH):
+        print("❌ 找不到現有的 data.json，無法只更新報價；請先完整執行一次 read_news.py。", file=sys.stderr)
+        sys.exit(1)
+
+    with open(DATA_JSON_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    print("💹 抓取市場報價...")
+    quotes = fetch_quotes()
+    print("💹 抓取個股股價...")
+    stock_quotes = fetch_stock_quotes(COMPANIES_CFG)
+
+    data["taiex"] = build_taiex_block(quotes)
+    data["markets"] = build_markets_block(quotes)
+    for holding in data.get("watchlist_holdings", []):
+        sq = stock_quotes.get(holding.get("symbol"))
+        if sq:
+            holding["price"] = sq["value"]
+            holding["price_change"] = sq["change"]
+            holding["price_trend"] = sq["trend"]
+    data["prices_updated_at"] = datetime.now(TAIPEI_TZ).isoformat()
+
+    with open(DATA_JSON_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"📈 報價已更新：{DATA_JSON_PATH}")
+
+
+# ==========================================================
 # 🚀 主流程
 # ==========================================================
 
 if __name__ == "__main__":
+    if "--quotes-only" in sys.argv:
+        run_quotes_only()
+        sys.exit(0)
+
     now = datetime.now(TAIPEI_TZ)
     current_time = now.strftime('%Y-%m-%d %H:%M')
     since_dt = get_last_trading_close(now)
@@ -550,9 +690,16 @@ if __name__ == "__main__":
 
     print("\n💹 抓取市場報價...")
     quotes = fetch_quotes()
+    print("💹 抓取個股股價...")
+    stock_quotes = fetch_stock_quotes(COMPANIES_CFG)
+    print("🏦 抓取三大法人買賣超與融資融券...")
+    institutional_margin = fetch_institutional_and_margin(COMPANIES_CFG)
 
     # 輸出 data.json，給網頁版晨報使用（本機與 CI 都會產生）
-    data_output = build_data_json(market_results, company_results, quotes, since_dt)
+    data_output = build_data_json(
+        market_results, company_results, quotes, since_dt,
+        stock_quotes=stock_quotes, institutional_margin=institutional_margin,
+    )
     with open(DATA_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(data_output, f, ensure_ascii=False, indent=2)
     print(f"\n📊 data.json 已產出：{DATA_JSON_PATH}")

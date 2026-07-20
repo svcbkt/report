@@ -122,12 +122,42 @@ function renderSectors() {
 
 function mergedHoldings() {
   // 以本機（使用者手動新增）的持股清單為主，若代號有出現在 data.json 的
-  // watchlist_holdings 中，就用排程產出的最新判讀覆蓋 signal / reason / tone。
+  // watchlist_holdings 中，就用排程產出的最新判讀覆蓋 signal / reason / tone，
+  // 並附上股價、三大法人買賣超、融資融券等排程抓到的資料。
   const autoBySymbol = Object.fromEntries((reportData.watchlist_holdings || []).map((h) => [h.symbol, h]));
   return holdings.map((h) => {
     const auto = autoBySymbol[h.symbol];
-    return auto ? { ...h, signal: auto.signal, reason: auto.reason, tone: auto.tone } : h;
+    if (!auto) return h;
+    return {
+      ...h,
+      signal: auto.signal, reason: auto.reason, tone: auto.tone,
+      price: auto.price, price_change: auto.price_change, price_trend: auto.price_trend,
+      institutional: auto.institutional, margin: auto.margin,
+    };
   });
+}
+
+function formatLots(shares) {
+  // 股數轉換為「張」（1張=1000股），並附上正負號
+  const lots = Math.round(shares / 1000);
+  return `${lots >= 0 ? '+' : ''}${lots.toLocaleString('zh-TW')}張`;
+}
+
+function formatInstitutionalLine(inst) {
+  if (!inst) return '';
+  const parts = [
+    `外資${formatLots(inst.foreign_net)}`,
+    `投信${formatLots(inst.trust_net)}`,
+    `自營${formatLots(inst.dealer_net)}`,
+  ];
+  return `法人：${parts.join(' ')}`;
+}
+
+function formatMarginLine(margin) {
+  if (!margin) return '';
+  const balanceLots = Math.round(margin.margin_balance / 1000).toLocaleString('zh-TW');
+  const changeLots = formatLots(margin.margin_change);
+  return `融資餘額 ${balanceLots}張（${changeLots}）`;
 }
 
 function renderHoldings() {
@@ -136,8 +166,14 @@ function renderHoldings() {
   $('#portfolioMessage').textContent = list.length
     ? `正在追蹤 ${list.length} 檔持股；每次排程產生報告時會一併更新個股摘要。`
     : '加入你的持股後，這裡會自動彙整每檔股票的盤前資訊與風險提示。';
-  $('#holdingsBody').innerHTML = list.length ? list.map((stock) => `
-    <tr><td><div class="stock-name">${escapeHtml(stock.name)}</div><div class="stock-code">${escapeHtml(stock.symbol)}${stock.cost ? ` · 成本 ${escapeHtml(String(stock.cost))}` : ''}</div></td><td><span class="stock-signal ${stock.tone}">${escapeHtml(stock.signal)}</span></td><td class="reason">${escapeHtml(stock.reason)}</td><td><button class="delete-button" data-edit="${escapeHtml(stock.symbol)}">編輯</button> <button class="delete-button" data-delete="${escapeHtml(stock.symbol)}">移除</button></td></tr>`).join('')
+  $('#holdingsBody').innerHTML = list.length ? list.map((stock) => {
+    const priceLine = stock.price
+      ? `<div class="stock-price ${stock.price_trend || ''}">${escapeHtml(stock.price)} <small>${escapeHtml(stock.price_change || '')}</small></div>` : '';
+    const instLine = formatInstitutionalLine(stock.institutional);
+    const marginLine = formatMarginLine(stock.margin);
+    const extraLines = [instLine, marginLine].filter(Boolean).map(t => `<div class="reason-extra">${escapeHtml(t)}</div>`).join('');
+    return `<tr><td><div class="stock-name">${escapeHtml(stock.name)}</div><div class="stock-code">${escapeHtml(stock.symbol)}${stock.cost ? ` · 成本 ${escapeHtml(String(stock.cost))}` : ''}</div>${priceLine}</td><td><span class="stock-signal ${stock.tone}">${escapeHtml(stock.signal)}</span></td><td class="reason">${escapeHtml(stock.reason)}${extraLines}</td><td><button class="delete-button" data-edit="${escapeHtml(stock.symbol)}">編輯</button> <button class="delete-button" data-delete="${escapeHtml(stock.symbol)}">移除</button></td></tr>`;
+  }).join('')
     : '<tr><td colspan="4" class="reason">尚未加入持股。點擊右上方「新增個股」開始建立你的專屬晨報。</td></tr>';
   localStorage.setItem('premarket-holdings', JSON.stringify(holdings));
 }
@@ -146,8 +182,9 @@ function renderMeta() {
   const noteEl = document.querySelector('.source-note');
   if (noteEl) noteEl.textContent = usingFallback ? '示範資料' : '自動產出';
   const updatedEl = document.querySelector('.updated');
-  if (updatedEl && reportData.generated_at) {
-    const d = new Date(reportData.generated_at);
+  const latestTimestamp = reportData.prices_updated_at || reportData.generated_at;
+  if (updatedEl && latestTimestamp) {
+    const d = new Date(latestTimestamp);
     updatedEl.innerHTML = `<i></i> 資料更新於 ${d.toLocaleTimeString('zh-TW', { hour: '2-digit', minute: '2-digit' })}`;
   }
 }
