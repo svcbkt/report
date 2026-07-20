@@ -1,0 +1,61 @@
+name: Intraday Quotes Update
+
+on:
+  schedule:
+    # 台灣時間 09:00~13:45 平日，每 15 分鐘一次（UTC 01:00~05:45）
+    # 只更新報價數字，不重跑新聞/AI分析，所以不需要 GEMINI_API_KEY
+    - cron: '*/15 1-5 * * 1-5'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages-intraday-quotes"
+  cancel-in-progress: false
+
+jobs:
+  update-quotes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Update quotes only (no news/AI call)
+        run: python read_news.py --quotes-only
+
+      - name: Commit updated data.json back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git diff --staged --quiet || git commit -m "chore: 盤中報價更新 [skip ci]"
+          git push
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: update-quotes
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
