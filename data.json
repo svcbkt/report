@@ -1,42 +1,23 @@
 {
-  "generated_at": "2026-07-25T18:15:21.570207+08:00",
-  "prices_updated_at": "2026-07-25T18:15:21.570207+08:00",
-  "report_date_text": "2026 年 07 月 25 日，星期六",
-  "news_window": "07/24 13:30",
-  "market_tone": "偏空",
-  "market_tone_class": "negative",
-  "market_summary": "受AI權值股多頭踩踏與技術指標走弱影響，台股大盤短期修正壓力沉重，預期將呈弱勢震盪並持續尋求下檔實質支撐。",
-  "signal_row": [
-    {
-      "label": "美股焦點",
-      "text": "偏空",
-      "arrow": "↓",
-      "tone": "negative"
-    },
-    {
-      "label": "費城半導體",
-      "text": "偏空",
-      "arrow": "↓",
-      "tone": "negative"
-    },
-    {
-      "label": "台股焦點",
-      "text": "偏空",
-      "arrow": "↓",
-      "tone": "negative"
-    }
-  ],
+  "generated_at": "2026-07-27T20:41:52.676162+08:00",
+  "prices_updated_at": "2026-07-27T20:41:52.676162+08:00",
+  "report_date_text": "2026 年 07 月 27 日，星期一",
+  "news_window": "07/27 13:30",
+  "market_tone": "中性",
+  "market_tone_class": "neutral-text",
+  "market_summary": "今日尚無足夠新聞可供摘要，請留意開盤後市場實際反應。",
+  "signal_row": [],
   "taiex": {
-    "value": "43,655",
-    "change": "-2.67%",
-    "change_pct": "-2.67%",
+    "value": "43,634",
+    "change": "-0.05%",
+    "change_pct": "-0.05%",
     "tone": "negative",
     "chart_points": [
-      42449.69921875,
       44232.87109375,
       44825.78125,
       44850.80859375,
-      43654.83984375
+      43654.83984375,
+      43634.19140625
     ]
   },
   "markets": [
@@ -60,15 +41,15 @@
     ],
     [
       "日經 225",
-      "64,611.15",
-      "-2.73%",
-      "negative"
+      "64,931.19",
+      "+0.50%",
+      "positive"
     ],
     [
       "美元／台幣",
-      "32.34",
-      "+0.13%",
-      "positive"
+      "32.30",
+      "+0.00%",
+      "neutral-text"
     ],
     [
       "台積電 ADR",
@@ -78,112 +59,18 @@
     ],
     [
       "布蘭特原油",
-      "96.78",
-      "-3.88%",
+      "90.48",
+      "-6.51%",
       "negative"
     ],
     [
       "美 10 年債",
-      "4.68%",
-      "-0.02",
+      "4.65%",
+      "-0.03",
       "negative"
     ]
   ],
-  "news": [
-    [
-      "AI過度支出疑慮升溫，晶片股遭拋售",
-      "受美股費半重挫與台指期夜盤大跌影響，台股短期面臨沉重修正壓力。在市場對AI獲利前景疑慮未消前，大盤預期呈弱勢震盪整理格局。",
-      "偏空",
-      "negative",
-      "美股焦點"
-    ],
-    [
-      "費半重挫逾4%，台積電ADR走軟",
-      "受美股費半重挫與台指期夜盤大跌影響，台股短期面臨沉重修正壓力。在市場對AI獲利前景疑慮未消前，大盤預期呈弱勢震盪整理格局。",
-      "偏空",
-      "negative",
-      "美股焦點"
-    ],
-    [
-      "費半重挫逾4%壓抑台指期表現",
-      "受美股費半大跌與地緣政治避險情緒升溫影響，台股短期走勢恐面臨較大修正壓力。大盤技術面偏弱，短期內將呈弱勢震盪並向下測試支撐。",
-      "偏空",
-      "negative",
-      "費城半導體"
-    ],
-    [
-      "AI資本支出焦慮與中東戰火共振",
-      "受美股費半大跌與地緣政治避險情緒升溫影響，台股短期走勢恐面臨較大修正壓力。大盤技術面偏弱，短期內將呈弱勢震盪並向下測試支撐。",
-      "偏空",
-      "negative",
-      "費城半導體"
-    ]
-  ],
+  "news": [],
   "sectors": [],
-  "watchlist_holdings": [
-    {
-      "symbol": "2887",
-      "name": "台新金",
-      "signal": "偏多",
-      "reason": "台新與新光合併效益顯現且獲利創高，結合旗下銀行深耕高資產財富管理，短期展望偏向樂觀。在市場震盪之際，其穩健的防禦特質有望持續吸引避險資金配置。",
-      "tone": "bull",
-      "price": "34.15",
-      "price_change": "-1.01%",
-      "price_trend": "negative",
-      "margin": {
-        "margin_balance": 40988,
-        "margin_change": -1851,
-        "short_balance": 56,
-        "short_change": 3
-      }
-    },
-    {
-      "symbol": "3189",
-      "name": "景碩",
-      "signal": "中性",
-      "reason": "受惠於ABF載板結構性供需失衡擴大及主要客戶英特爾財報亮眼，景碩短期營收與獲利動能看俏；然而，大盤受美國新關稅政策衝擊轉弱，短期股價動能恐受壓制。",
-      "tone": "watch",
-      "price": "711.00",
-      "price_change": "-9.43%",
-      "price_trend": "negative",
-      "margin": {
-        "margin_balance": 19709,
-        "margin_change": -17,
-        "short_balance": 214,
-        "short_change": 33
-      }
-    },
-    {
-      "symbol": "2454",
-      "name": "聯發科",
-      "signal": "中性",
-      "reason": "聯發科短期受惠於AI代理手機技術的推進，晶片導入將成為營收成長的關鍵動能。在台股大盤劇烈震盪下，公司憑藉強健的半導體領先地位，展現出資金避險與防禦特質。",
-      "tone": "watch",
-      "price": "3,750.00",
-      "price_change": "-3.23%",
-      "price_trend": "negative",
-      "margin": {
-        "margin_balance": 9704,
-        "margin_change": 39,
-        "short_balance": 35,
-        "short_change": 4
-      }
-    },
-    {
-      "symbol": "3711",
-      "name": "日月光投控",
-      "signal": "中性",
-      "reason": "短期內雖面臨競爭對手奪單與大盤修正壓力，但受惠於英特爾及超微AI晶片需求爆發，日月光在先進封裝領域的訂單能見度依然維持高檔。",
-      "tone": "watch",
-      "price": "613.00",
-      "price_change": "-5.55%",
-      "price_trend": "negative",
-      "margin": {
-        "margin_balance": 11272,
-        "margin_change": 46,
-        "short_balance": 83,
-        "short_change": -20
-      }
-    }
-  ]
+  "watchlist_holdings": []
 }
