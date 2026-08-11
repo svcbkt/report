@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-08-11T12:52:44.662668+08:00",
-  "prices_updated_at": "2026-08-11T12:55:17.923489+08:00",
+  "prices_updated_at": "2026-08-11T16:32:05.196462+08:00",
   "report_date_text": "2026 年 08 月 11 日，星期二",
   "news_window": "08/10 13:30",
   "market_tone": "中性",
@@ -27,16 +27,16 @@
     }
   ],
   "taiex": {
-    "value": "45,087",
-    "change": "+0.35%",
-    "change_pct": "+0.35%",
+    "value": "45,121",
+    "change": "+0.43%",
+    "change_pct": "+0.43%",
     "tone": "positive",
     "chart_points": [
       44611.6015625,
       44396.69921875,
       44225.91015625,
       44928.76171875,
-      45087.0390625
+      45120.71875
     ]
   },
   "markets": [
@@ -66,9 +66,9 @@
     ],
     [
       "美元／台幣",
-      "32.24",
-      "-0.00%",
-      "negative"
+      "32.26",
+      "+0.09%",
+      "positive"
     ],
     [
       "台積電 ADR",
@@ -78,8 +78,8 @@
     ],
     [
       "布蘭特原油",
-      "87.75",
-      "+0.03%",
+      "89.92",
+      "+2.51%",
       "positive"
     ],
     [
@@ -127,8 +127,8 @@
       "signal": "中性",
       "reason": "公司在雙金合併後積極推動ESG與AI科技整合，短期營運重心在於內部資源整合與綜效發揮。整體獲利前景仍取決於合併後的資產品質與放款結構調整速度。",
       "tone": "watch",
-      "price": "35.45",
-      "price_change": "-1.25%",
+      "price": "35.55",
+      "price_change": "-0.97%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 40115,
@@ -143,9 +143,9 @@
       "signal": "偏多",
       "reason": "受惠於ABF載板需求回升，景碩營收連月創下新高，且產業獲得外資券商調高目標價，顯示短期基本面與營運成長動能依舊強勁。",
       "tone": "bull",
-      "price": "830.00",
-      "price_change": "-0.72%",
-      "price_trend": "negative",
+      "price": "842.00",
+      "price_change": "+0.72%",
+      "price_trend": "positive",
       "margin": {
         "margin_balance": 22867,
         "margin_change": -510,
@@ -159,8 +159,8 @@
       "signal": "中性",
       "reason": "聯發科7月營收呈現月減年增並創同期新高，短期雖受季節性因素波動，但整體基本面仍屬穩健。隨著第四季 AI ASIC 晶片迎來量產，加上智慧裝置平台業務增長，短期展望仍具備成長動能。",
       "tone": "watch",
-      "price": "4,015.00",
-      "price_change": "+1.39%",
+      "price": "4,020.00",
+      "price_change": "+1.52%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 10133,
@@ -175,8 +175,8 @@
       "signal": "偏多",
       "reason": "受惠先進封裝需求強勁，日月光第二季與7月營收皆創歷史新高。隨著公司斥資百億積極擴建AI封測產能，短期營收與獲利成長動能明確。",
       "tone": "bull",
-      "price": "627.00",
-      "price_change": "-0.48%",
+      "price": "629.00",
+      "price_change": "-0.16%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 14042,
