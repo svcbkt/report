@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-08-14T13:49:01.637217+08:00",
-  "prices_updated_at": "2026-08-14T13:49:01.637217+08:00",
+  "prices_updated_at": "2026-08-14T14:04:32.016759+08:00",
   "report_date_text": "2026 年 08 月 14 日，星期五",
   "news_window": "08/14 13:30",
   "market_tone": "中性",
@@ -15,16 +15,16 @@
     }
   ],
   "taiex": {
-    "value": "45,926",
-    "change": "-0.21%",
-    "change_pct": "-0.21%",
+    "value": "45,811",
+    "change": "-0.46%",
+    "change_pct": "-0.46%",
     "tone": "negative",
     "chart_points": [
       44928.76171875,
       45120.71875,
       45518.0703125,
       46021.48046875,
-      45925.69140625
+      45811.01171875
     ]
   },
   "markets": [
@@ -48,14 +48,14 @@
     ],
     [
       "日經 225",
-      "68,633.55",
-      "+0.48%",
+      "68,738.04",
+      "+0.63%",
       "positive"
     ],
     [
       "美元／台幣",
-      "31.99",
-      "-0.67%",
+      "31.96",
+      "-0.75%",
       "negative"
     ],
     [
@@ -101,8 +101,8 @@
       "signal": "中性",
       "reason": "受惠PCB同業漲價與擴產引領的產業復甦氣氛，載板市場最壞情況已過。景碩短期展望隨記憶體及消費性電子回溫，ABF與BT載板拉貨動能有望逐步轉強。",
       "tone": "watch",
-      "price": "859.00",
-      "price_change": "+0.94%",
+      "price": "862.00",
+      "price_change": "+1.29%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 22246,
@@ -117,8 +117,8 @@
       "signal": "中性",
       "reason": "聯發科與輝達在車用及AI領域的合作綜效預期將逐步顯現，惟短期營收表現仍受制於全球消費性電子復甦緩慢與半導體族群的資金修正壓力。",
       "tone": "watch",
-      "price": "4,215.00",
-      "price_change": "-0.24%",
+      "price": "4,210.00",
+      "price_change": "-0.36%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 10038,
@@ -133,8 +133,8 @@
       "signal": "中性",
       "reason": "雖然短期內整體半導體權值股面臨大盤獲利回吐的調節壓力，但在AI晶片需求能見度佳的趨勢下，公司先進封裝與測試營收預期仍具支撐力道。",
       "tone": "watch",
-      "price": "618.00",
-      "price_change": "-1.28%",
+      "price": "616.00",
+      "price_change": "-1.60%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 12540,
