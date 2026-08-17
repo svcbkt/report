@@ -1,12 +1,24 @@
 {
-  "generated_at": "2026-08-14T13:49:01.637217+08:00",
-  "prices_updated_at": "2026-08-14T14:04:32.016759+08:00",
-  "report_date_text": "2026 年 08 月 14 日，星期五",
+  "generated_at": "2026-08-17T11:31:48.609388+08:00",
+  "prices_updated_at": "2026-08-17T11:31:48.609388+08:00",
+  "report_date_text": "2026 年 08 月 17 日，星期一",
   "news_window": "08/14 13:30",
   "market_tone": "中性",
   "market_tone_class": "neutral-text",
-  "market_summary": "目前大盤缺乏權值股明確表態，短期走勢預期維持區間狹幅震盪，資金轉向特定中小型股尋求短線機會。",
+  "market_summary": "台股短期在46,000點關卡呈現高檔劇烈震盪，雖有外資大舉買超撐腰，但高檔賣壓仍重。預期大盤將在45,500點防線至46,000點之間進行區間整理，等待主流權值股止穩。",
   "signal_row": [
+    {
+      "label": "美股焦點",
+      "text": "偏空",
+      "arrow": "↓",
+      "tone": "negative"
+    },
+    {
+      "label": "費城半導體",
+      "text": "偏多",
+      "arrow": "↑",
+      "tone": "positive"
+    },
     {
       "label": "台股焦點",
       "text": "中性",
@@ -15,132 +27,146 @@
     }
   ],
   "taiex": {
-    "value": "45,811",
-    "change": "-0.46%",
-    "change_pct": "-0.46%",
-    "tone": "negative",
+    "value": "45,961",
+    "change": "+0.33%",
+    "change_pct": "+0.33%",
+    "tone": "positive",
     "chart_points": [
-      44928.76171875,
       45120.71875,
       45518.0703125,
       46021.48046875,
-      45811.01171875
+      45811.01171875,
+      45961.30078125
     ]
   },
   "markets": [
     [
       "費城半導體",
-      "12,456.00",
-      "+0.46%",
-      "positive"
+      "12,417.05",
+      "-0.31%",
+      "negative"
     ],
     [
       "NASDAQ",
-      "26,803.03",
-      "+0.81%",
-      "positive"
+      "26,729.16",
+      "-0.28%",
+      "negative"
     ],
     [
       "S&P 500",
-      "7,798.99",
-      "+0.65%",
-      "positive"
+      "7,785.76",
+      "-0.17%",
+      "negative"
     ],
     [
       "日經 225",
-      "68,738.04",
-      "+0.63%",
+      "68,721.44",
+      "+0.01%",
       "positive"
     ],
     [
       "美元／台幣",
-      "31.96",
+      "31.88",
       "-0.75%",
       "negative"
     ],
     [
       "台積電 ADR",
-      "430.49",
-      "+0.31%",
-      "positive"
+      "426.35",
+      "-0.96%",
+      "negative"
     ],
     [
       "布蘭特原油",
-      "87.47",
-      "+0.46%",
+      "88.80",
+      "+0.32%",
       "positive"
     ],
     [
       "美 10 年債",
-      "4.64%",
-      "-0.04",
-      "negative"
+      "4.70%",
+      "+0.06",
+      "positive"
     ]
   ],
   "news": [
     [
-      "中小型個股低量波動",
-      "目前大盤缺乏權值股明確表態，短期走勢預期維持區間狹幅震盪，資金轉向特定中小型股尋求短線機會。",
-      "中性",
-      "neutral-text",
-      "台股焦點"
+      "聯準會釋鷹派訊號衝擊市場",
+      "受美股獲利了結、降息預期降溫及台積電ADR走弱影響，台股短期面臨修正壓力。預期大盤將回測下方均線尋求支撐，短期呈震盪整理格局。",
+      "偏空",
+      "negative",
+      "美股焦點"
     ],
     [
-      "市場資金流動性考驗",
-      "目前大盤缺乏權值股明確表態，短期走勢預期維持區間狹幅震盪，資金轉向特定中小型股尋求短線機會。",
-      "中性",
-      "neutral-text",
-      "台股焦點"
+      "美國零售數據疲軟與中東局勢緊張",
+      "受美股獲利了結、降息預期降溫及台積電ADR走弱影響，台股短期面臨修正壓力。預期大盤將回測下方均線尋求支撐，短期呈震盪整理格局。",
+      "偏空",
+      "negative",
+      "美股焦點"
+    ],
+    [
+      "AI晶片修正後反彈，長線需求仍受看好",
+      "費半指數在修正後重啟攻勢，基本面強勁的AI概念股將繼續扮演領頭羊，帶動台股短期呈現震盪偏多格局。",
+      "偏多",
+      "positive",
+      "費城半導體"
+    ],
+    [
+      "美大選政治變數恐影響半導體中長線政策",
+      "費半指數在修正後重啟攻勢，基本面強勁的AI概念股將繼續扮演領頭羊，帶動台股短期呈現震盪偏多格局。",
+      "偏多",
+      "positive",
+      "費城半導體"
     ]
   ],
   "sectors": [],
   "watchlist_holdings": [
     {
-      "symbol": "3189",
-      "name": "景碩",
-      "signal": "中性",
-      "reason": "受惠PCB同業漲價與擴產引領的產業復甦氣氛，載板市場最壞情況已過。景碩短期展望隨記憶體及消費性電子回溫，ABF與BT載板拉貨動能有望逐步轉強。",
-      "tone": "watch",
-      "price": "862.00",
-      "price_change": "+1.29%",
-      "price_trend": "positive",
+      "symbol": "2887",
+      "name": "台新金",
+      "signal": "偏多",
+      "reason": "台新金與新光金合併後規模顯著擴大，前7月獲利創下歷史新高，短期內受惠於亞資與AI雙引擎驅動，整體營運動能與整合綜效展望樂觀。",
+      "tone": "bull",
+      "price": "37.30",
+      "price_change": "-1.19%",
+      "price_trend": "negative",
       "margin": {
-        "margin_balance": 22246,
-        "margin_change": -274,
-        "short_balance": 308,
-        "short_change": -46
+        "margin_balance": 39425,
+        "margin_change": -83,
+        "short_balance": 752,
+        "short_change": 607
       }
     },
     {
       "symbol": "2454",
       "name": "聯發科",
       "signal": "中性",
-      "reason": "聯發科與輝達在車用及AI領域的合作綜效預期將逐步顯現，惟短期營收表現仍受制於全球消費性電子復甦緩慢與半導體族群的資金修正壓力。",
+      "reason": "聯發科在ASIC與自研晶片領域的市佔率持續攀升，中長期營運受惠於AI多元布局；然而短期內受外資下修Google TPU出貨量的雜音干擾，股價走勢趨於震盪整理。",
       "tone": "watch",
-      "price": "4,210.00",
-      "price_change": "-0.36%",
+      "price": "4,070.00",
+      "price_change": "-3.33%",
       "price_trend": "negative",
       "margin": {
-        "margin_balance": 10038,
-        "margin_change": 29,
-        "short_balance": 57,
-        "short_change": 13
+        "margin_balance": 9741,
+        "margin_change": -297,
+        "short_balance": 67,
+        "short_change": 10
       }
     },
     {
       "symbol": "3711",
       "name": "日月光投控",
-      "signal": "中性",
-      "reason": "雖然短期內整體半導體權值股面臨大盤獲利回吐的調節壓力，但在AI晶片需求能見度佳的趨勢下，公司先進封裝與測試營收預期仍具支撐力道。",
-      "tone": "watch",
-      "price": "616.00",
-      "price_change": "-1.60%",
-      "price_trend": "negative",
+      "signal": "偏多",
+      "reason": "受惠於AI晶片及先進封裝需求爆發，加上台積電CoWoS產能外溢效應，日月光成功取得AMD與博通等大廠訂單，推升第二季營收創下歷史新高。預期在下半年產業旺季與封裝產能持續開出下，短期營運將維持穩健成長。",
+      "tone": "bull",
+      "price": "619.00",
+      "price_change": "+0.49%",
+      "price_trend": "positive",
       "margin": {
-        "margin_balance": 12540,
-        "margin_change": -777,
-        "short_balance": 181,
-        "short_change": 11
+        "margin_balance": 12325,
+        "margin_change": -215,
+        "short_balance": 185,
+        "short_change": 4
       }
     }
   ]
