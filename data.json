@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-08-17T11:31:48.609388+08:00",
-  "prices_updated_at": "2026-08-17T11:31:48.609388+08:00",
+  "prices_updated_at": "2026-08-17T11:36:21.581924+08:00",
   "report_date_text": "2026 年 08 月 17 日，星期一",
   "news_window": "08/14 13:30",
   "market_tone": "中性",
@@ -27,16 +27,16 @@
     }
   ],
   "taiex": {
-    "value": "45,961",
-    "change": "+0.33%",
-    "change_pct": "+0.33%",
+    "value": "45,991",
+    "change": "+0.39%",
+    "change_pct": "+0.39%",
     "tone": "positive",
     "chart_points": [
       45120.71875,
       45518.0703125,
       46021.48046875,
       45811.01171875,
-      45961.30078125
+      45991.44921875
     ]
   },
   "markets": [
@@ -78,8 +78,8 @@
     ],
     [
       "布蘭特原油",
-      "88.80",
-      "+0.32%",
+      "88.83",
+      "+0.35%",
       "positive"
     ],
     [
@@ -127,8 +127,8 @@
       "signal": "偏多",
       "reason": "台新金與新光金合併後規模顯著擴大，前7月獲利創下歷史新高，短期內受惠於亞資與AI雙引擎驅動，整體營運動能與整合綜效展望樂觀。",
       "tone": "bull",
-      "price": "37.30",
-      "price_change": "-1.19%",
+      "price": "37.05",
+      "price_change": "-1.85%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 39425,
@@ -143,8 +143,8 @@
       "signal": "中性",
       "reason": "聯發科在ASIC與自研晶片領域的市佔率持續攀升，中長期營運受惠於AI多元布局；然而短期內受外資下修Google TPU出貨量的雜音干擾，股價走勢趨於震盪整理。",
       "tone": "watch",
-      "price": "4,070.00",
-      "price_change": "-3.33%",
+      "price": "4,065.00",
+      "price_change": "-3.44%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 9741,
@@ -159,8 +159,8 @@
       "signal": "偏多",
       "reason": "受惠於AI晶片及先進封裝需求爆發，加上台積電CoWoS產能外溢效應，日月光成功取得AMD與博通等大廠訂單，推升第二季營收創下歷史新高。預期在下半年產業旺季與封裝產能持續開出下，短期營運將維持穩健成長。",
       "tone": "bull",
-      "price": "619.00",
-      "price_change": "+0.49%",
+      "price": "618.00",
+      "price_change": "+0.32%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 12325,
