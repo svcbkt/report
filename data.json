@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-08-18T09:45:16.450726+08:00",
-  "prices_updated_at": "2026-08-18T11:56:42.903219+08:00",
+  "prices_updated_at": "2026-08-18T12:33:43.206346+08:00",
   "report_date_text": "2026 年 08 月 18 日，星期二",
   "news_window": "08/17 13:30",
   "market_tone": "中性",
@@ -27,58 +27,58 @@
     }
   ],
   "taiex": {
-    "value": "45,362",
-    "change": "-0.98%",
-    "change_pct": "-0.98%",
+    "value": "45,323",
+    "change": "-1.07%",
+    "change_pct": "-1.07%",
     "tone": "negative",
     "chart_points": [
       45518.0703125,
       46021.48046875,
       45811.01171875,
-      45361.75
+      45322.859375
     ]
   },
   "markets": [
     [
       "費城半導體",
-      "12,621.00",
-      "+1.64%",
-      "positive"
+      "12,417.05",
+      "-0.31%",
+      "negative"
     ],
     [
       "NASDAQ",
-      "26,644.91",
-      "-0.32%",
-      "negative"
+      "nan",
+      "+nan%",
+      "neutral-text"
     ],
     [
       "S&P 500",
-      "7,745.06",
-      "-0.52%",
-      "negative"
+      "nan",
+      "+nan%",
+      "neutral-text"
     ],
     [
       "日經 225",
-      "67,976.87",
-      "-1.07%",
+      "67,909.72",
+      "-1.17%",
       "negative"
     ],
     [
       "美元／台幣",
-      "31.86",
-      "-0.42%",
+      "31.85",
+      "-0.43%",
       "negative"
     ],
     [
       "台積電 ADR",
-      "430.97",
-      "+1.08%",
-      "positive"
+      "nan",
+      "+nan%",
+      "neutral-text"
     ],
     [
       "布蘭特原油",
-      "91.35",
-      "+3.20%",
+      "91.43",
+      "+0.62%",
       "positive"
     ],
     [
@@ -142,8 +142,8 @@
       "signal": "偏多",
       "reason": "受惠於AI與先進封裝對高階ABF載板的需求缺口，產品調漲將推升短期營收與獲利成長。隨著產業超級循環啟動，公司短期展望樂觀並具備強勁成長動能。",
       "tone": "bull",
-      "price": "871.00",
-      "price_change": "-3.76%",
+      "price": "865.00",
+      "price_change": "-4.42%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 21935,
@@ -158,8 +158,8 @@
       "signal": "中性",
       "reason": "聯發科積極佈局AI ASIC領域並獲外資調升目標價，短期具備題材支撐。然而，整體科技產業面臨AI成本效益與泡沫化的市場疑慮，短期股價動能恐受大盤震盪壓制。",
       "tone": "watch",
-      "price": "3,885.00",
-      "price_change": "-4.07%",
+      "price": "3,905.00",
+      "price_change": "-3.58%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 9573,
@@ -174,8 +174,8 @@
       "signal": "偏多",
       "reason": "日月光投控受惠於輝達AI矽光子技術布局，先進封裝與共同封裝光學需求看好；搭配500億元聯貸案資金到位，短期營運成長動能與資本支出擴展可期。",
       "tone": "bull",
-      "price": "601.00",
-      "price_change": "-2.28%",
+      "price": "598.00",
+      "price_change": "-2.76%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 12069,
