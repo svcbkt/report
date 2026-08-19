@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-08-19T09:46:16.753360+08:00",
-  "prices_updated_at": "2026-08-19T12:50:35.309021+08:00",
+  "prices_updated_at": "2026-08-19T13:25:16.385541+08:00",
   "report_date_text": "2026 年 08 月 19 日，星期三",
   "news_window": "08/18 13:30",
   "market_tone": "偏空",
@@ -27,46 +27,47 @@
     }
   ],
   "taiex": {
-    "value": "44,642",
-    "change": "-2.65%",
-    "change_pct": "-2.65%",
+    "value": "44,643",
+    "change": "-1.47%",
+    "change_pct": "-1.47%",
     "tone": "negative",
     "chart_points": [
       46021.48046875,
       45811.01171875,
       45857.26953125,
-      44641.80859375
+      45308.6796875,
+      44642.7890625
     ]
   },
   "markets": [
     [
       "費城半導體",
-      "12,621.00",
-      "+1.64%",
-      "positive"
+      "11,992.46",
+      "-4.98%",
+      "negative"
     ],
     [
       "NASDAQ",
-      "nan",
-      "+nan%",
-      "neutral-text"
+      "26,289.71",
+      "-1.33%",
+      "negative"
     ],
     [
       "S&P 500",
-      "nan",
-      "+nan%",
-      "neutral-text"
+      "7,691.76",
+      "-0.69%",
+      "negative"
     ],
     [
       "日經 225",
-      "65,380.84",
-      "-5.55%",
+      "65,456.17",
+      "-2.97%",
       "negative"
     ],
     [
       "美元／台幣",
-      "31.88",
-      "+0.08%",
+      "31.86",
+      "+0.04%",
       "positive"
     ],
     [
@@ -77,8 +78,8 @@
     ],
     [
       "布蘭特原油",
-      "91.61",
-      "+0.65%",
+      "91.54",
+      "+0.57%",
       "positive"
     ],
     [
@@ -126,8 +127,8 @@
       "signal": "偏多",
       "reason": "受惠於投信資金青睞與數位金融業務穩定發展，台新金短期獲利動能可望維持穩健。然而，近期股價漲幅較大後的震盪賣壓，以及併購後續整合題材將主導短期股價波動。",
       "tone": "bull",
-      "price": "36.60",
-      "price_change": "-0.81%",
+      "price": "36.65",
+      "price_change": "-0.68%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 40462,
@@ -142,8 +143,8 @@
       "signal": "偏多",
       "reason": "受惠於ABF載板持續缺貨與原料吃緊，景碩第三季營運看好，下半年報價仍具調升空間，可望推升短期營收與獲利表現。",
       "tone": "bull",
-      "price": "842.00",
-      "price_change": "-2.66%",
+      "price": "851.00",
+      "price_change": "-1.62%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 21676,
@@ -158,8 +159,8 @@
       "signal": "中性",
       "reason": "短期受惠天璣新晶片導入電競新機，手機晶片營收動能仍具支撐。雖市場憂慮Google TPU訂單遭瓜分，但分析顯示多方合作並不互斥，AI ASIC長期趨勢依然正向。",
       "tone": "watch",
-      "price": "3,840.00",
-      "price_change": "-1.16%",
+      "price": "3,845.00",
+      "price_change": "-1.03%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 9393,
@@ -174,8 +175,8 @@
       "signal": "中性",
       "reason": "短期內雖面臨大盤系統性修正壓力，但受惠於AI與ASIC晶片封裝需求暢旺，公司先進封裝產能利用率有望持續攀升，帶動整體營收穩健成長。",
       "tone": "watch",
-      "price": "586.00",
-      "price_change": "-2.17%",
+      "price": "587.00",
+      "price_change": "-2.00%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 11681,
