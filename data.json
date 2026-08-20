@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-08-20T09:44:55.124908+08:00",
-  "prices_updated_at": "2026-08-20T11:58:38.873720+08:00",
+  "prices_updated_at": "2026-08-20T12:40:43.397460+08:00",
   "report_date_text": "2026 年 08 月 20 日，星期四",
   "news_window": "08/19 13:30",
   "market_tone": "偏空",
@@ -27,16 +27,16 @@
     }
   ],
   "taiex": {
-    "value": "44,493",
-    "change": "-0.51%",
-    "change_pct": "-0.51%",
-    "tone": "negative",
+    "value": "44,755",
+    "change": "+0.08%",
+    "change_pct": "+0.08%",
+    "tone": "positive",
     "chart_points": [
       45811.01171875,
       45857.26953125,
       45308.6796875,
       44719.3515625,
-      44493.44140625
+      44754.828125
     ]
   },
   "markets": [
@@ -60,8 +60,8 @@
     ],
     [
       "日經 225",
-      "65,793.00",
-      "+0.71%",
+      "66,087.81",
+      "+1.17%",
       "positive"
     ],
     [
@@ -78,8 +78,8 @@
     ],
     [
       "布蘭特原油",
-      "91.93",
-      "+1.00%",
+      "91.99",
+      "+0.40%",
       "positive"
     ],
     [
@@ -127,8 +127,8 @@
       "signal": "中性",
       "reason": "短期內受整體金控獲利下滑趨勢影響，營運動能稍顯壓抑。不過，隨著新成立ETF將其納入成分股建倉，加上數位金融業務持續推廣，有望為股價提供基本防禦力。",
       "tone": "watch",
-      "price": "35.90",
-      "price_change": "-1.37%",
+      "price": "36.05",
+      "price_change": "-0.96%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 40767,
@@ -143,9 +143,9 @@
       "signal": "中性",
       "reason": "受惠於第三季ABF載板需求回溫與價格調漲，景碩短期營收具備增長動能，但復甦力道仍受制於下游庫存調整與AI產業的短期雜音。",
       "tone": "watch",
-      "price": "836.00",
-      "price_change": "-1.53%",
-      "price_trend": "negative",
+      "price": "854.00",
+      "price_change": "+0.59%",
+      "price_trend": "positive",
       "margin": {
         "margin_balance": 21425,
         "margin_change": -251,
@@ -159,8 +159,8 @@
       "signal": "偏空",
       "reason": "短期內因Google TPU訂單面臨Marvell與AMD搶單，導致客製化AI晶片（ASIC）業務竞争壓力升溫。不過，憑藉其手機晶片基本盤與多元化佈局，整體營收仍具備基本支撐力道。",
       "tone": "bear",
-      "price": "3,675.00",
-      "price_change": "-4.42%",
+      "price": "3,730.00",
+      "price_change": "-2.99%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 9530,
@@ -175,8 +175,8 @@
       "signal": "偏空",
       "reason": "雖然公司斥資千億擴建高階測試園區以搶攻AI新浪潮，長期成長動能無虞，但短期內受半導體產業調整及主動式ETF資金流出影響，股價與營收動能仍需時間整理。",
       "tone": "bear",
-      "price": "577.00",
-      "price_change": "-1.87%",
+      "price": "586.00",
+      "price_change": "-0.34%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 11861,
