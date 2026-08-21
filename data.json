@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-08-21T09:49:50.569091+08:00",
-  "prices_updated_at": "2026-08-21T09:49:50.569091+08:00",
+  "prices_updated_at": "2026-08-21T10:21:13.764880+08:00",
   "report_date_text": "2026 年 08 月 21 日，星期五",
   "news_window": "08/20 13:30",
   "market_tone": "中性",
@@ -27,16 +27,16 @@
     }
   ],
   "taiex": {
-    "value": "44,973",
-    "change": "+0.09%",
-    "change_pct": "+0.09%",
+    "value": "44,985",
+    "change": "+0.11%",
+    "change_pct": "+0.11%",
     "tone": "positive",
     "chart_points": [
       45857.26953125,
       45308.6796875,
       44719.3515625,
       44933.73828125,
-      44972.55078125
+      44984.6015625
     ]
   },
   "markets": [
@@ -60,14 +60,14 @@
     ],
     [
       "日經 225",
-      "65,674.50",
-      "-0.82%",
+      "65,771.76",
+      "-0.67%",
       "negative"
     ],
     [
       "美元／台幣",
-      "31.82",
-      "+0.02%",
+      "31.84",
+      "+0.08%",
       "positive"
     ],
     [
@@ -78,8 +78,8 @@
     ],
     [
       "布蘭特原油",
-      "93.78",
-      "+2.36%",
+      "93.79",
+      "+2.37%",
       "positive"
     ],
     [
@@ -127,8 +127,8 @@
       "signal": "偏空",
       "reason": "台新新光金合併後短期面臨外資大幅調節的籌碼壓力，營收與獲利表現仍需時間展現合併綜效。短期展望受制於籌碼面整理，待市場消化賣壓後方能重回基本面軌道。",
       "tone": "bear",
-      "price": "36.25",
-      "price_change": "+0.83%",
+      "price": "36.85",
+      "price_change": "+2.50%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 40262,
@@ -143,8 +143,8 @@
       "signal": "中性",
       "reason": "短期內景碩受去庫存壓力影響，技術面呈現修正整理態勢。然而，中長期受惠於ABF載板供需缺口預期擴大，美銀等外資調高目標價，產業長線趨勢仍具支撐力道。",
       "tone": "watch",
-      "price": "812.00",
-      "price_change": "-4.58%",
+      "price": "801.00",
+      "price_change": "-5.88%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 19439,
@@ -159,8 +159,8 @@
       "signal": "偏空",
       "reason": "聯發科短期因ETF與投信籌碼調節面臨股價修正壓力，但中長期受惠AI與Google TPU等自研晶片合作，外資看好明年EPS具備翻倍成長潛力。",
       "tone": "bear",
-      "price": "3,790.00",
-      "price_change": "+2.43%",
+      "price": "3,775.00",
+      "price_change": "+2.03%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 9546,
@@ -175,8 +175,8 @@
       "signal": "中性",
       "reason": "日月光受惠於海外大廠財報亮眼及持續擴產，半導體封測產業中長期復甦趨勢明確。然而短期內受國內機構法人與ETF資金減碼調節影響，股價承壓並呈現震盪整理格局。",
       "tone": "watch",
-      "price": "586.00",
-      "price_change": "-0.68%",
+      "price": "583.00",
+      "price_change": "-1.19%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 12041,
