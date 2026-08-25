@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-08-25T09:46:33.272119+08:00",
-  "prices_updated_at": "2026-08-25T10:16:23.087384+08:00",
+  "prices_updated_at": "2026-08-25T11:25:47.795220+08:00",
   "report_date_text": "2026 年 08 月 25 日，星期二",
   "news_window": "08/24 13:30",
   "market_tone": "偏空",
@@ -27,16 +27,16 @@
     }
   ],
   "taiex": {
-    "value": "44,500",
-    "change": "-0.59%",
-    "change_pct": "-0.59%",
+    "value": "44,309",
+    "change": "-1.01%",
+    "change_pct": "-1.01%",
     "tone": "negative",
     "chart_points": [
       44719.3515625,
       44933.73828125,
       45224.2890625,
       44762.3203125,
-      44499.51171875
+      44308.578125
     ]
   },
   "markets": [
@@ -60,14 +60,14 @@
     ],
     [
       "日經 225",
-      "65,203.93",
-      "-0.49%",
-      "negative"
+      "65,598.68",
+      "+0.11%",
+      "positive"
     ],
     [
       "美元／台幣",
-      "31.87",
-      "+0.16%",
+      "31.86",
+      "+0.13%",
       "positive"
     ],
     [
@@ -78,8 +78,8 @@
     ],
     [
       "布蘭特原油",
-      "92.79",
-      "-1.70%",
+      "92.33",
+      "-2.18%",
       "negative"
     ],
     [
@@ -127,8 +127,8 @@
       "signal": "中性",
       "reason": "隨著全球降息循環開啟，金控整體投資收益與債券資產評價有望回升。短期因避險資金流入而股價具支撐力道，但兩金控合併之綜效仍需時間顯現。",
       "tone": "watch",
-      "price": "37.00",
-      "price_change": "+1.37%",
+      "price": "36.90",
+      "price_change": "+1.10%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 40635,
@@ -143,9 +143,9 @@
       "signal": "偏多",
       "reason": "受惠於ABF載板產業結構轉為賣方市場，景碩短期營收與稼動率預期逐步回溫，並受惠於指數調整之資金卡位效應。",
       "tone": "bull",
-      "price": "794.00",
-      "price_change": "+0.00%",
-      "price_trend": "neutral-text",
+      "price": "786.00",
+      "price_change": "-1.01%",
+      "price_trend": "negative",
       "margin": {
         "margin_balance": 19918,
         "margin_change": 297,
@@ -159,8 +159,8 @@
       "signal": "偏多",
       "reason": "聯發科積極將業務版圖由智慧型手機拓展至雲端ASIC與AI資料中心，隨著TPU晶片出貨看漲，可望在非手機領域開闢中長期的第二成長曲線。",
       "tone": "bull",
-      "price": "3,705.00",
-      "price_change": "-1.59%",
+      "price": "3,665.00",
+      "price_change": "-2.66%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 9460,
@@ -175,8 +175,8 @@
       "signal": "中性偏多",
       "reason": "受惠於AI算力需求爆發，公司大舉擴產以因應高階封裝產能缺口，短期營運與營收成長動能依舊看好。然而，美股科技股估值修正及地緣政治等外部波動，可能壓抑短期股價表現。",
       "tone": "watch",
-      "price": "574.00",
-      "price_change": "-3.04%",
+      "price": "573.00",
+      "price_change": "-3.21%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 11713,
