@@ -1,189 +1,76 @@
 {
-  "generated_at": "2026-08-25T09:46:33.272119+08:00",
-  "prices_updated_at": "2026-08-25T13:57:39.429919+08:00",
-  "report_date_text": "2026 年 08 月 25 日，星期二",
-  "news_window": "08/24 13:30",
-  "market_tone": "偏空",
-  "market_tone_class": "negative",
-  "market_summary": "台股失守季線且量縮拉回，短期面臨恐慌修正與尋求第二隻腳支撐的壓力。預期大盤將在季線下方震盪整理，需觀察台積電等權值股何時止穩。",
-  "signal_row": [
-    {
-      "label": "美股焦點",
-      "text": "偏空",
-      "arrow": "↓",
-      "tone": "negative"
-    },
-    {
-      "label": "費城半導體",
-      "text": "偏空",
-      "arrow": "↓",
-      "tone": "negative"
-    },
-    {
-      "label": "台股焦點",
-      "text": "偏空",
-      "arrow": "↓",
-      "tone": "negative"
-    }
-  ],
+  "generated_at": "2026-08-26T09:49:51.820163+08:00",
+  "prices_updated_at": "2026-08-26T09:49:51.820163+08:00",
+  "report_date_text": "2026 年 08 月 26 日，星期三",
+  "news_window": "08/25 13:30",
+  "market_tone": "中性",
+  "market_tone_class": "neutral-text",
+  "market_summary": "今日尚無足夠新聞可供摘要，請留意開盤後市場實際反應。",
+  "signal_row": [],
   "taiex": {
-    "value": "45,169",
-    "change": "+0.91%",
-    "change_pct": "+0.91%",
-    "tone": "positive",
+    "value": "45,117",
+    "change": "-0.12%",
+    "change_pct": "-0.12%",
+    "tone": "negative",
     "chart_points": [
-      44719.3515625,
       44933.73828125,
       45224.2890625,
       44762.3203125,
-      45169.4609375
+      45169.4609375,
+      45116.69921875
     ]
   },
   "markets": [
     [
       "費城半導體",
-      "11,423.17",
-      "-2.70%",
-      "negative"
+      "11,588.04",
+      "+1.44%",
+      "positive"
     ],
     [
       "NASDAQ",
-      "25,980.19",
-      "-0.76%",
-      "negative"
+      "26,151.30",
+      "+0.66%",
+      "positive"
     ],
     [
       "S&P 500",
-      "7,652.86",
-      "-0.28%",
-      "negative"
-    ],
-    [
-      "日經 225",
-      "65,739.54",
+      "7,677.28",
       "+0.32%",
       "positive"
     ],
     [
+      "日經 225",
+      "65,642.03",
+      "-0.33%",
+      "negative"
+    ],
+    [
       "美元／台幣",
-      "31.89",
-      "+0.21%",
+      "31.84",
+      "+0.08%",
       "positive"
     ],
     [
       "台積電 ADR",
-      "410.12",
-      "-2.11%",
-      "negative"
+      "417.41",
+      "+1.78%",
+      "positive"
     ],
     [
       "布蘭特原油",
-      "91.88",
-      "-0.31%",
+      "85.22",
+      "-7.54%",
       "negative"
     ],
     [
       "美 10 年債",
-      "4.70%",
-      "-0.03",
+      "4.64%",
+      "-0.07",
       "negative"
     ]
   ],
-  "news": [
-    [
-      "輝達財報前股價連七跌",
-      "受美股半導體重挫與輝達疲軟拖累，台股短期面臨科技權值股修正壓力，大盤走勢恐偏弱震盪。",
-      "偏空",
-      "negative",
-      "美股焦點"
-    ],
-    [
-      "美股半導體與記憶體重挫",
-      "受美股半導體重挫與輝達疲軟拖累，台股短期面臨科技權值股修正壓力，大盤走勢恐偏弱震盪。",
-      "偏空",
-      "negative",
-      "美股焦點"
-    ],
-    [
-      "費半指數重挫與輝達連黑",
-      "費半重挫與輝達走勢疲軟將壓抑台股AI概念股表現，短期大盤恐面臨震盪回檔並尋求下檔支撐。",
-      "偏空",
-      "negative",
-      "費城半導體"
-    ],
-    [
-      "輝達最新財報公布在即",
-      "費半重挫與輝達走勢疲軟將壓抑台股AI概念股表現，短期大盤恐面臨震盪回檔並尋求下檔支撐。",
-      "偏空",
-      "negative",
-      "費城半導體"
-    ]
-  ],
+  "news": [],
   "sectors": [],
-  "watchlist_holdings": [
-    {
-      "symbol": "2887",
-      "name": "台新金",
-      "signal": "中性",
-      "reason": "隨著全球降息循環開啟，金控整體投資收益與債券資產評價有望回升。短期因避險資金流入而股價具支撐力道，但兩金控合併之綜效仍需時間顯現。",
-      "tone": "watch",
-      "price": "37.15",
-      "price_change": "+1.78%",
-      "price_trend": "positive",
-      "margin": {
-        "margin_balance": 40635,
-        "margin_change": 647,
-        "short_balance": 185,
-        "short_change": -58
-      }
-    },
-    {
-      "symbol": "3189",
-      "name": "景碩",
-      "signal": "偏多",
-      "reason": "受惠於ABF載板產業結構轉為賣方市場，景碩短期營收與稼動率預期逐步回溫，並受惠於指數調整之資金卡位效應。",
-      "tone": "bull",
-      "price": "835.00",
-      "price_change": "+5.16%",
-      "price_trend": "positive",
-      "margin": {
-        "margin_balance": 19918,
-        "margin_change": 297,
-        "short_balance": 307,
-        "short_change": -17
-      }
-    },
-    {
-      "symbol": "2454",
-      "name": "聯發科",
-      "signal": "偏多",
-      "reason": "聯發科積極將業務版圖由智慧型手機拓展至雲端ASIC與AI資料中心，隨著TPU晶片出貨看漲，可望在非手機領域開闢中長期的第二成長曲線。",
-      "tone": "bull",
-      "price": "3,735.00",
-      "price_change": "-0.80%",
-      "price_trend": "negative",
-      "margin": {
-        "margin_balance": 9460,
-        "margin_change": -42,
-        "short_balance": 39,
-        "short_change": -2
-      }
-    },
-    {
-      "symbol": "3711",
-      "name": "日月光投控",
-      "signal": "中性偏多",
-      "reason": "受惠於AI算力需求爆發，公司大舉擴產以因應高階封裝產能缺口，短期營運與營收成長動能依舊看好。然而，美股科技股估值修正及地緣政治等外部波動，可能壓抑短期股價表現。",
-      "tone": "watch",
-      "price": "591.00",
-      "price_change": "-0.17%",
-      "price_trend": "negative",
-      "margin": {
-        "margin_balance": 11713,
-        "margin_change": -306,
-        "short_balance": 203,
-        "short_change": 3
-      }
-    }
-  ]
+  "watchlist_holdings": []
 }
