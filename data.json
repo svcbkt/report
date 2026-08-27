@@ -1,76 +1,163 @@
 {
-  "generated_at": "2026-08-26T09:49:51.820163+08:00",
-  "prices_updated_at": "2026-08-26T13:49:38.090977+08:00",
-  "report_date_text": "2026 年 08 月 26 日，星期三",
-  "news_window": "08/25 13:30",
-  "market_tone": "中性",
-  "market_tone_class": "neutral-text",
-  "market_summary": "今日尚無足夠新聞可供摘要，請留意開盤後市場實際反應。",
-  "signal_row": [],
+  "generated_at": "2026-08-27T16:58:04.894045+08:00",
+  "prices_updated_at": "2026-08-27T16:58:04.894045+08:00",
+  "report_date_text": "2026 年 08 月 27 日，星期四",
+  "news_window": "08/27 13:30",
+  "market_tone": "偏多",
+  "market_tone_class": "positive",
+  "market_summary": "受惠輝達財報佳，台股維持多頭格局並伺機挑戰46,000點關卡。然而權值股走勢分歧，短期大盤預期呈現高檔震盪、類股快速輪動的格局。",
+  "signal_row": [
+    {
+      "label": "台股焦點",
+      "text": "偏多",
+      "arrow": "↑",
+      "tone": "positive"
+    }
+  ],
   "taiex": {
-    "value": "45,839",
-    "change": "+1.48%",
-    "change_pct": "+1.48%",
+    "value": "45,975",
+    "change": "+0.31%",
+    "change_pct": "+0.31%",
     "tone": "positive",
     "chart_points": [
-      44933.73828125,
       45224.2890625,
       44762.3203125,
       45169.4609375,
-      45839.03125
+      45832.62109375,
+      45975.21875
     ]
   },
   "markets": [
     [
       "費城半導體",
-      "11,588.04",
-      "+1.44%",
+      "11,611.24",
+      "+0.20%",
       "positive"
     ],
     [
       "NASDAQ",
-      "26,151.30",
-      "+0.66%",
-      "positive"
+      "26,130.20",
+      "-0.08%",
+      "negative"
     ],
     [
       "S&P 500",
-      "7,677.28",
-      "+0.32%",
-      "positive"
+      "7,675.70",
+      "-0.02%",
+      "negative"
     ],
     [
       "日經 225",
-      "66,345.37",
-      "+0.74%",
-      "positive"
+      "66,131.98",
+      "-0.20%",
+      "negative"
     ],
     [
       "美元／台幣",
-      "31.83",
-      "+0.04%",
-      "positive"
+      "31.70",
+      "-0.46%",
+      "negative"
     ],
     [
       "台積電 ADR",
-      "417.41",
-      "+1.78%",
+      "417.69",
+      "+0.07%",
       "positive"
     ],
     [
       "布蘭特原油",
-      "85.87",
-      "-3.06%",
+      "86.32",
+      "-1.73%",
       "negative"
     ],
     [
       "美 10 年債",
-      "4.64%",
-      "-0.07",
-      "negative"
+      "4.66%",
+      "+0.03",
+      "positive"
     ]
   ],
-  "news": [],
+  "news": [
+    [
+      "輝達財報報喜帶動AI供應鏈",
+      "受惠輝達財報佳，台股維持多頭格局並伺機挑戰46,000點關卡。然而權值股走勢分歧，短期大盤預期呈現高檔震盪、類股快速輪動的格局。",
+      "偏多",
+      "positive",
+      "台股焦點"
+    ],
+    [
+      "指數挑戰四萬六千點高檔震盪",
+      "受惠輝達財報佳，台股維持多頭格局並伺機挑戰46,000點關卡。然而權值股走勢分歧，短期大盤預期呈現高檔震盪、類股快速輪動的格局。",
+      "偏多",
+      "positive",
+      "台股焦點"
+    ]
+  ],
   "sectors": [],
-  "watchlist_holdings": []
+  "watchlist_holdings": [
+    {
+      "symbol": "2887",
+      "name": "台新金",
+      "signal": "偏多",
+      "reason": "受惠於投信法人資金積極湧入與ESG正面形象提升，台新金短期籌碼面與消息面皆偏向樂觀。在金融市場回溫下，預期短期營運與整體獲利表現將維持穩健。",
+      "tone": "bull",
+      "price": "37.30",
+      "price_change": "-0.53%",
+      "price_trend": "negative",
+      "margin": {
+        "margin_balance": 41088,
+        "margin_change": 164,
+        "short_balance": 225,
+        "short_change": 35
+      }
+    },
+    {
+      "symbol": "3189",
+      "name": "景碩",
+      "signal": "偏多",
+      "reason": "受惠於AI與高效能運算需求增長，ABF與BT載板稼動率有望逐步回升，帶動短期營收與獲利走出谷底。",
+      "tone": "bull",
+      "price": "914.00",
+      "price_change": "+3.75%",
+      "price_trend": "positive",
+      "margin": {
+        "margin_balance": 18919,
+        "margin_change": -189,
+        "short_balance": 415,
+        "short_change": 68
+      }
+    },
+    {
+      "symbol": "2454",
+      "name": "聯發科",
+      "signal": "中性",
+      "reason": "聯發科積極籌資以應對 AI ASIC 產業的資本競爭，並切入 Google 等大廠的 COT 合作模式，中長期有助於優化產品組合。然而短期內研發與籌資成本上升，且手機市場回溫速度仍存變數，短期展望呈現震盪整理格局。",
+      "tone": "watch",
+      "price": "3,865.00",
+      "price_change": "-2.03%",
+      "price_trend": "negative",
+      "margin": {
+        "margin_balance": 9665,
+        "margin_change": 311,
+        "short_balance": 36,
+        "short_change": 2
+      }
+    },
+    {
+      "symbol": "3711",
+      "name": "日月光投控",
+      "signal": "中性",
+      "reason": "受惠輝達亮眼財報，短期內高階先進封裝需求將持續強勁並支撐營收表現。然而，因成熟製程復甦力道偏慢，整體營運呈現先進製程強、成熟製程弱的分化態勢。",
+      "tone": "watch",
+      "price": "605.00",
+      "price_change": "+2.20%",
+      "price_trend": "positive",
+      "margin": {
+        "margin_balance": 11982,
+        "margin_change": 229,
+        "short_balance": 171,
+        "short_change": -1
+      }
+    }
+  ]
 }
