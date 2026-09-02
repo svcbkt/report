@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-02T12:16:49.142926+08:00",
-  "prices_updated_at": "2026-09-02T12:16:49.142926+08:00",
+  "prices_updated_at": "2026-09-02T13:23:00.663013+08:00",
   "report_date_text": "2026 年 09 月 02 日，星期三",
   "news_window": "09/01 13:30",
   "market_tone": "中性",
@@ -27,16 +27,15 @@
     }
   ],
   "taiex": {
-    "value": "46,240",
-    "change": "-1.51%",
-    "change_pct": "-1.51%",
+    "value": "46,227",
+    "change": "-1.54%",
+    "change_pct": "-1.54%",
     "tone": "negative",
     "chart_points": [
       45975.21875,
-      46331.44921875,
       46128.46875,
       46948.71875,
-      46239.98046875
+      46227.078125
     ]
   },
   "markets": [
@@ -60,14 +59,14 @@
     ],
     [
       "日經 225",
-      "64,324.46",
-      "-2.86%",
+      "64,266.64",
+      "-2.94%",
       "negative"
     ],
     [
       "美元／台幣",
-      "31.77",
-      "+0.25%",
+      "31.79",
+      "+0.31%",
       "positive"
     ],
     [
@@ -78,8 +77,8 @@
     ],
     [
       "布蘭特原油",
-      "95.42",
-      "+0.81%",
+      "95.55",
+      "+0.95%",
       "positive"
     ],
     [
@@ -127,8 +126,8 @@
       "signal": "偏多",
       "reason": "隨著台新與新光合併綜效逐步顯現，核心業務與信用卡簽帳額均維持強勁成長，經營團隊對獲利與股利政策展望樂觀，短期營運動能看好。",
       "tone": "bull",
-      "price": "40.45",
-      "price_change": "+0.37%",
+      "price": "41.15",
+      "price_change": "+2.11%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 41205,
@@ -143,8 +142,8 @@
       "signal": "偏多",
       "reason": "受惠於ABF載板超級循環啟動與AI供應鏈深化合作，景碩短期內營收與獲利成長動能強勁。隨著產業供需結構改善，公司營運表現可望隨產能開出而逐季走揚。",
       "tone": "bull",
-      "price": "854.00",
-      "price_change": "-2.29%",
+      "price": "848.00",
+      "price_change": "-2.97%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 21309,
@@ -159,9 +158,9 @@
       "signal": "偏多",
       "reason": "受惠於輝達的戰略投資與合作，聯發科成功躋身頂級AI供應鏈。預期隨著AI晶片與終端應用需求增加，短期營運動能將維持強勁。",
       "tone": "bull",
-      "price": "4,330.00",
-      "price_change": "+0.35%",
-      "price_trend": "positive",
+      "price": "4,300.00",
+      "price_change": "-0.35%",
+      "price_trend": "negative",
       "margin": {
         "margin_balance": 9788,
         "margin_change": 189,
@@ -175,8 +174,8 @@
       "signal": "偏多",
       "reason": "受惠於AI晶片對先進封裝的龐大需求，公司積極擴建廠房，且CPO新技術預計於年底量產，短期內營收與稼動率有望維持成長動能。",
       "tone": "bull",
-      "price": "591.00",
-      "price_change": "-3.11%",
+      "price": "588.00",
+      "price_change": "-3.61%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 13015,
