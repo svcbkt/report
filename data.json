@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-03T12:09:05.021307+08:00",
-  "prices_updated_at": "2026-09-03T13:25:44.670356+08:00",
+  "prices_updated_at": "2026-09-03T17:59:57.820983+08:00",
   "report_date_text": "2026 年 09 月 03 日，星期四",
   "news_window": "09/02 13:30",
   "market_tone": "偏空",
@@ -27,15 +27,16 @@
     }
   ],
   "taiex": {
-    "value": "46,170",
-    "change": "+0.01%",
-    "change_pct": "+0.01%",
-    "tone": "positive",
+    "value": "45,858",
+    "change": "-0.67%",
+    "change_pct": "-0.67%",
+    "tone": "negative",
     "chart_points": [
+      46331.44921875,
       46128.46875,
       46948.71875,
       46164.71875,
-      46169.578125
+      45857.66015625
     ]
   },
   "markets": [
@@ -59,14 +60,14 @@
     ],
     [
       "日經 225",
-      "64,261.67",
-      "-0.10%",
+      "64,214.48",
+      "-0.17%",
       "negative"
     ],
     [
       "美元／台幣",
-      "31.72",
-      "+0.15%",
+      "31.69",
+      "+0.06%",
       "positive"
     ],
     [
@@ -77,9 +78,9 @@
     ],
     [
       "布蘭特原油",
-      "94.92",
-      "-0.74%",
-      "negative"
+      "96.33",
+      "+0.73%",
+      "positive"
     ],
     [
       "美 10 年債",
@@ -126,8 +127,8 @@
       "signal": "偏多",
       "reason": "受惠於合併綜效顯現與資產規模擴大，公司正式晉升為第四大兆元金控，市場競爭力大幅提升。在金融股資金避風港效應下，短期營運動能與獲利展望維持樂觀。",
       "tone": "bull",
-      "price": "41.40",
-      "price_change": "+0.49%",
+      "price": "41.45",
+      "price_change": "+0.61%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 40276,
@@ -142,8 +143,8 @@
       "signal": "偏空",
       "reason": "受惠AI趨勢帶動載板精密度提升，且公司因中國無大型工廠而具備「非紅優勢」可規避關稅風險。然而，短期受同業洗產地風波波及與市場恐慌賣壓影響，營運及股價表現面臨修正壓力。",
       "tone": "bear",
-      "price": "787.00",
-      "price_change": "-7.08%",
+      "price": "775.00",
+      "price_change": "-8.50%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 21178,
@@ -158,8 +159,8 @@
       "signal": "偏多",
       "reason": "受惠於輝達與Google的戰略投資，聯發科在AI邊緣運算領域的技術實力獲得市場高度肯定。隨著執行長積極爭取台積電產能，顯示短期訂單需求暢旺，晶片營收成長動能可期。",
       "tone": "bull",
-      "price": "4,385.00",
-      "price_change": "+2.57%",
+      "price": "4,340.00",
+      "price_change": "+1.52%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 10759,
@@ -174,9 +175,9 @@
       "signal": "中性",
       "reason": "受惠於AI先進封裝需求強勁及年底CPO新技術量產，日月光中長期成長動能無虞。然而短期內受整體大盤震盪與法人籌碼調節影響，股價呈現高檔震盪整理格局。",
       "tone": "watch",
-      "price": "594.00",
-      "price_change": "+0.85%",
-      "price_trend": "positive",
+      "price": "589.00",
+      "price_change": "+0.00%",
+      "price_trend": "neutral-text",
       "margin": {
         "margin_balance": 13528,
         "margin_change": 513,
