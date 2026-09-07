@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-07T12:23:57.780976+08:00",
-  "prices_updated_at": "2026-09-07T12:23:57.780976+08:00",
+  "prices_updated_at": "2026-09-07T13:37:36.987150+08:00",
   "report_date_text": "2026 年 09 月 07 日，星期一",
   "news_window": "09/04 13:30",
   "market_tone": "中性",
@@ -21,16 +21,16 @@
     }
   ],
   "taiex": {
-    "value": "47,212",
-    "change": "+1.42%",
-    "change_pct": "+1.42%",
+    "value": "47,258",
+    "change": "+1.52%",
+    "change_pct": "+1.52%",
     "tone": "positive",
     "chart_points": [
       46948.71875,
       46164.71875,
       45857.66015625,
       46551.12890625,
-      47212.41015625
+      47258.12109375
     ]
   },
   "markets": [
@@ -54,14 +54,14 @@
     ],
     [
       "日經 225",
-      "66,259.63",
-      "+1.91%",
+      "66,279.91",
+      "+1.94%",
       "positive"
     ],
     [
       "美元／台幣",
-      "31.61",
-      "-0.25%",
+      "31.59",
+      "-0.32%",
       "negative"
     ],
     [
@@ -121,8 +121,8 @@
       "signal": "偏多",
       "reason": "受益於銀銀併預計於明年元旦完成，公司上半年獲利呈現爆發式增長且市值突破兆元，在合併綜效預期與外資買盤支持下，短期營運動能與股價展望維持強勁。",
       "tone": "bull",
-      "price": "41.25",
-      "price_change": "-0.60%",
+      "price": "41.20",
+      "price_change": "-0.72%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 41471,
@@ -137,8 +137,8 @@
       "signal": "偏多",
       "reason": "受惠於AI與高效能運算對高階ABF載板的強勁需求，景碩8月營收創下歷史新高且成長動能強勁。隨著產品結構優化及產業長期趨勢看好，短期內營收與獲利表現預期將維持高檔。",
       "tone": "bull",
-      "price": "810.00",
-      "price_change": "-1.10%",
+      "price": "813.00",
+      "price_change": "-0.73%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 22035,
@@ -153,8 +153,8 @@
       "signal": "偏多",
       "reason": "聯發科受惠於輝達認購其可轉債，雙方在AI ASIC與NVLink領域的合作大幅深化，將顯著挹注雲端伺服器晶片營收。在獲得博通等大廠肯定下，短期營運動能強勁，產業領先地位更加穩固。",
       "tone": "bull",
-      "price": "4,770.00",
-      "price_change": "+8.04%",
+      "price": "4,800.00",
+      "price_change": "+8.72%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 10520,
@@ -169,8 +169,8 @@
       "signal": "偏多",
       "reason": "受惠AI晶片對先進封測的強勁需求，日月光營收顯著成長並展現漲價契機。隨著後段封裝重要性提升，法人上修獲利預估，短期營運與獲利成長動能維持樂觀。",
       "tone": "bull",
-      "price": "620.00",
-      "price_change": "+5.44%",
+      "price": "618.00",
+      "price_change": "+5.10%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 13404,
