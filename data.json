@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-08T12:20:43.811340+08:00",
-  "prices_updated_at": "2026-09-08T12:20:43.811340+08:00",
+  "prices_updated_at": "2026-09-08T13:33:39.852543+08:00",
   "report_date_text": "2026 年 09 月 08 日，星期二",
   "news_window": "09/07 13:30",
   "market_tone": "偏多",
@@ -27,16 +27,16 @@
     }
   ],
   "taiex": {
-    "value": "47,274",
-    "change": "-0.11%",
-    "change_pct": "-0.11%",
+    "value": "47,082",
+    "change": "-0.52%",
+    "change_pct": "-0.52%",
     "tone": "negative",
     "chart_points": [
       46164.71875,
       45857.66015625,
       46551.12890625,
       47326.26953125,
-      47273.55078125
+      47082.30078125
     ]
   },
   "markets": [
@@ -60,14 +60,14 @@
     ],
     [
       "日經 225",
-      "66,633.49",
-      "+0.35%",
-      "positive"
+      "66,259.04",
+      "-0.21%",
+      "negative"
     ],
     [
       "美元／台幣",
-      "31.46",
-      "-0.52%",
+      "31.48",
+      "-0.46%",
       "negative"
     ],
     [
@@ -78,8 +78,8 @@
     ],
     [
       "布蘭特原油",
-      "97.50",
-      "+1.27%",
+      "97.84",
+      "+1.62%",
       "positive"
     ],
     [
@@ -127,8 +127,8 @@
       "signal": "中性",
       "reason": "台新金受惠於金融產業多頭趨勢與大型主權基金買盤支撐，短期營運與基本面展望維持穩健。然而受制於外資近期調節賣壓，股價短期內較易呈現區間震盪整理格局。",
       "tone": "watch",
-      "price": "42.05",
-      "price_change": "+2.31%",
+      "price": "42.70",
+      "price_change": "+3.89%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 41840,
@@ -143,8 +143,8 @@
       "signal": "偏空",
       "reason": "短期內受ABF載板整體產業利空衝擊與法人籌碼調節影響，營收與股價動能偏弱。中長期則須觀察BT載板在光晶片及光模組需求帶動下，能否迎來復甦契機。",
       "tone": "bear",
-      "price": "801.00",
-      "price_change": "-1.48%",
+      "price": "799.00",
+      "price_change": "-1.72%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 22677,
@@ -159,8 +159,8 @@
       "signal": "偏多",
       "reason": "受惠與輝達結盟與ASIC題材發酵，加上趁隙搶攻英特爾CPU漲價後的IPC與IoT市場空缺，短期營運動能強勁。在AI需求旺盛下，公司正積極爭取更多晶圓代工產能以支應強勁訂單。",
       "tone": "bull",
-      "price": "4,755.00",
-      "price_change": "-0.11%",
+      "price": "4,700.00",
+      "price_change": "-1.26%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 10544,
@@ -175,8 +175,8 @@
       "signal": "偏多",
       "reason": "受惠AI先進封測需求強勁，公司砸重金擴產展現對中長期半導體趨勢的強烈信心。短期營收有望在先進封裝產能陸續開出下，維持穩健增長動能。",
       "tone": "bull",
-      "price": "618.00",
-      "price_change": "-0.48%",
+      "price": "617.00",
+      "price_change": "-0.64%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 11812,
