@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-07T12:23:57.780976+08:00",
-  "prices_updated_at": "2026-09-07T18:44:14.396360+08:00",
-  "report_date_text": "2026 年 09 月 07 日，星期一",
-  "news_window": "09/04 13:30",
-  "market_tone": "中性",
-  "market_tone_class": "neutral-text",
-  "market_summary": "台股大盤在法人買盤回流下強力反彈，但外資空單創高顯示高檔仍有壓。短期走勢預期將呈現高檔震盪，並以個別題材股輪動主導。",
+  "generated_at": "2026-09-08T12:20:43.811340+08:00",
+  "prices_updated_at": "2026-09-08T12:20:43.811340+08:00",
+  "report_date_text": "2026 年 09 月 08 日，星期二",
+  "news_window": "09/07 13:30",
+  "market_tone": "偏多",
+  "market_tone_class": "positive",
+  "market_summary": "大盤放量站穩高位並具備挑戰前高動能，短期內預期呈多頭架構下的高檔震盪整理格局。",
   "signal_row": [
     {
       "label": "美股焦點",
@@ -14,23 +14,29 @@
       "tone": "positive"
     },
     {
+      "label": "費城半導體",
+      "text": "偏多",
+      "arrow": "↑",
+      "tone": "positive"
+    },
+    {
       "label": "台股焦點",
-      "text": "中性",
-      "arrow": "→",
-      "tone": "neutral-text"
+      "text": "偏多",
+      "arrow": "↑",
+      "tone": "positive"
     }
   ],
   "taiex": {
-    "value": "47,326",
-    "change": "+1.67%",
-    "change_pct": "+1.67%",
-    "tone": "positive",
+    "value": "47,274",
+    "change": "-0.11%",
+    "change_pct": "-0.11%",
+    "tone": "negative",
     "chart_points": [
-      46948.71875,
       46164.71875,
       45857.66015625,
       46551.12890625,
-      47326.26953125
+      47326.26953125,
+      47273.55078125
     ]
   },
   "markets": [
@@ -54,13 +60,13 @@
     ],
     [
       "日經 225",
-      "66,399.84",
-      "+2.12%",
+      "66,633.49",
+      "+0.35%",
       "positive"
     ],
     [
       "美元／台幣",
-      "31.53",
+      "31.46",
       "-0.52%",
       "negative"
     ],
@@ -72,9 +78,9 @@
     ],
     [
       "布蘭特原油",
-      "96.28",
-      "+0.00%",
-      "neutral-text"
+      "97.50",
+      "+1.27%",
+      "positive"
     ],
     [
       "美 10 年債",
@@ -85,32 +91,32 @@
   ],
   "news": [
     [
-      "美非農就業強勁，費半與台積ADR逆勢走揚",
-      "受惠美股費半大漲與台積電ADR強勢表現，台股短期具備止跌反彈動能。然美股高檔震盪與國際政治地緣干擾仍存，預期大盤將呈現區間整理格局。",
+      "OpenAI新模型引爆晶片需求",
+      "台股受惠AI需求爆發與電子權值股強勢，短線雖受夜盤回檔壓抑，整體仍維持偏多震盪格局。",
       "偏多",
       "positive",
       "美股焦點"
     ],
     [
-      "聯準會官員釋放政策訊號，市場預期波動",
-      "受惠美股費半大漲與台積電ADR強勢表現，台股短期具備止跌反彈動能。然美股高檔震盪與國際政治地緣干擾仍存，預期大盤將呈現區間整理格局。",
+      "電子權值領軍逼近歷史高點",
+      "台股受惠AI需求爆發與電子權值股強勢，短線雖受夜盤回檔壓抑，整體仍維持偏多震盪格局。",
       "偏多",
       "positive",
       "美股焦點"
     ],
     [
-      "大盤強彈近700點，重返四萬六千點",
-      "台股大盤在法人買盤回流下強力反彈，但外資空單創高顯示高檔仍有壓。短期走勢預期將呈現高檔震盪，並以個別題材股輪動主導。",
-      "中性",
-      "neutral-text",
-      "台股焦點"
+      "費半與台積ADR暴漲，法人大舉買超台股",
+      "受惠費半與台積電ADR強勢衝鋒，台股短期內在晶圓代工與ASIC族群帶動下，可望維持震盪偏多格局。",
+      "偏多",
+      "positive",
+      "費城半導體"
     ],
     [
-      "三大法人轉買超，終結連日賣超態勢",
-      "台股大盤在法人買盤回流下強力反彈，但外資空單創高顯示高檔仍有壓。短期走勢預期將呈現高檔震盪，並以個別題材股輪動主導。",
-      "中性",
-      "neutral-text",
-      "台股焦點"
+      "南韓央行升息，緊盯美股南韓資金流向",
+      "受惠費半與台積電ADR強勢衝鋒，台股短期內在晶圓代工與ASIC族群帶動下，可望維持震盪偏多格局。",
+      "偏多",
+      "positive",
+      "費城半導體"
     ]
   ],
   "sectors": [],
@@ -118,65 +124,65 @@
     {
       "symbol": "2887",
       "name": "台新金",
-      "signal": "偏多",
-      "reason": "受益於銀銀併預計於明年元旦完成，公司上半年獲利呈現爆發式增長且市值突破兆元，在合併綜效預期與外資買盤支持下，短期營運動能與股價展望維持強勁。",
-      "tone": "bull",
-      "price": "41.10",
-      "price_change": "-0.96%",
-      "price_trend": "negative",
+      "signal": "中性",
+      "reason": "台新金受惠於金融產業多頭趨勢與大型主權基金買盤支撐，短期營運與基本面展望維持穩健。然而受制於外資近期調節賣壓，股價短期內較易呈現區間震盪整理格局。",
+      "tone": "watch",
+      "price": "42.05",
+      "price_change": "+2.31%",
+      "price_trend": "positive",
       "margin": {
-        "margin_balance": 41471,
-        "margin_change": 363,
-        "short_balance": 496,
-        "short_change": 35
+        "margin_balance": 41840,
+        "margin_change": 369,
+        "short_balance": 380,
+        "short_change": -116
       }
     },
     {
       "symbol": "3189",
       "name": "景碩",
-      "signal": "偏多",
-      "reason": "受惠於AI與高效能運算對高階ABF載板的強勁需求，景碩8月營收創下歷史新高且成長動能強勁。隨著產品結構優化及產業長期趨勢看好，短期內營收與獲利表現預期將維持高檔。",
-      "tone": "bull",
-      "price": "813.00",
-      "price_change": "-0.73%",
+      "signal": "偏空",
+      "reason": "短期內受ABF載板整體產業利空衝擊與法人籌碼調節影響，營收與股價動能偏弱。中長期則須觀察BT載板在光晶片及光模組需求帶動下，能否迎來復甦契機。",
+      "tone": "bear",
+      "price": "801.00",
+      "price_change": "-1.48%",
       "price_trend": "negative",
       "margin": {
-        "margin_balance": 22035,
-        "margin_change": 393,
-        "short_balance": 348,
-        "short_change": 55
+        "margin_balance": 22677,
+        "margin_change": 642,
+        "short_balance": 295,
+        "short_change": -53
       }
     },
     {
       "symbol": "2454",
       "name": "聯發科",
       "signal": "偏多",
-      "reason": "聯發科受惠於輝達認購其可轉債，雙方在AI ASIC與NVLink領域的合作大幅深化，將顯著挹注雲端伺服器晶片營收。在獲得博通等大廠肯定下，短期營運動能強勁，產業領先地位更加穩固。",
+      "reason": "受惠與輝達結盟與ASIC題材發酵，加上趁隙搶攻英特爾CPU漲價後的IPC與IoT市場空缺，短期營運動能強勁。在AI需求旺盛下，公司正積極爭取更多晶圓代工產能以支應強勁訂單。",
       "tone": "bull",
-      "price": "4,760.00",
-      "price_change": "+7.81%",
-      "price_trend": "positive",
+      "price": "4,755.00",
+      "price_change": "-0.11%",
+      "price_trend": "negative",
       "margin": {
-        "margin_balance": 10520,
-        "margin_change": -16,
-        "short_balance": 42,
-        "short_change": -5
+        "margin_balance": 10544,
+        "margin_change": 24,
+        "short_balance": 74,
+        "short_change": 32
       }
     },
     {
       "symbol": "3711",
       "name": "日月光投控",
       "signal": "偏多",
-      "reason": "受惠AI晶片對先進封測的強勁需求，日月光營收顯著成長並展現漲價契機。隨著後段封裝重要性提升，法人上修獲利預估，短期營運與獲利成長動能維持樂觀。",
+      "reason": "受惠AI先進封測需求強勁，公司砸重金擴產展現對中長期半導體趨勢的強烈信心。短期營收有望在先進封裝產能陸續開出下，維持穩健增長動能。",
       "tone": "bull",
-      "price": "621.00",
-      "price_change": "+5.61%",
-      "price_trend": "positive",
+      "price": "618.00",
+      "price_change": "-0.48%",
+      "price_trend": "negative",
       "margin": {
-        "margin_balance": 13404,
-        "margin_change": 432,
-        "short_balance": 114,
-        "short_change": -53
+        "margin_balance": 11812,
+        "margin_change": -1592,
+        "short_balance": 167,
+        "short_change": 53
       }
     }
   ]
