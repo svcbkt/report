@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-10T12:23:00.591330+08:00",
-  "prices_updated_at": "2026-09-10T13:31:11.864264+08:00",
+  "prices_updated_at": "2026-09-10T18:02:30.888650+08:00",
   "report_date_text": "2026 年 09 月 10 日，星期四",
   "news_window": "09/09 13:30",
   "market_tone": "中性",
@@ -27,16 +27,16 @@
     }
   ],
   "taiex": {
-    "value": "46,916",
-    "change": "-0.57%",
-    "change_pct": "-0.57%",
+    "value": "46,940",
+    "change": "-0.51%",
+    "change_pct": "-0.51%",
     "tone": "negative",
     "chart_points": [
       46551.12890625,
       47326.26953125,
       47105.78125,
       47183.359375,
-      46915.66015625
+      46940.48828125
     ]
   },
   "markets": [
@@ -60,15 +60,15 @@
     ],
     [
       "日經 225",
-      "64,893.44",
-      "-0.38%",
-      "negative"
+      "65,270.95",
+      "+0.20%",
+      "positive"
     ],
     [
       "美元／台幣",
-      "31.50",
-      "-0.01%",
-      "negative"
+      "31.57",
+      "+0.22%",
+      "positive"
     ],
     [
       "台積電 ADR",
@@ -78,9 +78,9 @@
     ],
     [
       "布蘭特原油",
-      "100.97",
-      "-0.24%",
-      "negative"
+      "102.33",
+      "+1.11%",
+      "positive"
     ],
     [
       "美 10 年債",
@@ -127,8 +127,8 @@
       "signal": "偏多",
       "reason": "隨台新新光金合併案推進，結合雙方銀行與壽險優勢將顯著擴大營運規模，且財富管理業務受惠數位體驗升級，短期獲利成長動能看好。",
       "tone": "bull",
-      "price": "42.05",
-      "price_change": "-0.83%",
+      "price": "42.15",
+      "price_change": "-0.59%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 42508,
@@ -143,8 +143,8 @@
       "signal": "偏多",
       "reason": "受惠於AI應用爆發帶動高階IC載板需求，短期營收隨產業復甦逐步回溫，中長期在產值年增看好下展現強勁成長動能。",
       "tone": "bull",
-      "price": "829.00",
-      "price_change": "+2.09%",
+      "price": "827.00",
+      "price_change": "+1.85%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 22493,
@@ -159,8 +159,8 @@
       "signal": "偏多",
       "reason": "受益於新旗艦天璣晶片即將發表及AI ASIC市佔率上調，短期營收有望維持增長。與輝達的策略結盟更奠定了中長期在AI及車用晶片市場的領先地位。",
       "tone": "bull",
-      "price": "4,705.00",
-      "price_change": "+1.73%",
+      "price": "4,720.00",
+      "price_change": "+2.05%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 10447,
@@ -175,8 +175,8 @@
       "signal": "偏多",
       "reason": "受惠於AI先進封測需求強勁及FOPLP量產布局，公司短期營運動能暢旺。隨著大客戶新晶片陸續拉貨，預期第四季營收與整體稼動率仍有望維持高檔水準。",
       "tone": "bull",
-      "price": "648.00",
-      "price_change": "+1.25%",
+      "price": "650.00",
+      "price_change": "+1.56%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 10945,
