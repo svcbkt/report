@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-11T12:22:08.590770+08:00",
-  "prices_updated_at": "2026-09-11T12:22:08.590770+08:00",
+  "prices_updated_at": "2026-09-11T13:34:24.741752+08:00",
   "report_date_text": "2026 年 09 月 11 日，星期五",
   "news_window": "09/10 13:30",
   "market_tone": "偏空",
@@ -27,16 +27,16 @@
     }
   ],
   "taiex": {
-    "value": "46,236",
-    "change": "-1.50%",
-    "change_pct": "-1.50%",
+    "value": "46,264",
+    "change": "-1.44%",
+    "change_pct": "-1.44%",
     "tone": "negative",
     "chart_points": [
       47326.26953125,
       47105.78125,
       47183.359375,
       46940.48828125,
-      46235.5
+      46264.26171875
     ]
   },
   "markets": [
@@ -60,14 +60,14 @@
     ],
     [
       "日經 225",
-      "63,543.07",
-      "-2.65%",
+      "63,846.10",
+      "-2.18%",
       "negative"
     ],
     [
       "美元／台幣",
       "31.61",
-      "+0.47%",
+      "+0.46%",
       "positive"
     ],
     [
@@ -78,9 +78,9 @@
     ],
     [
       "布蘭特原油",
-      "108.04",
-      "+0.38%",
-      "positive"
+      "106.92",
+      "-0.66%",
+      "negative"
     ],
     [
       "美 10 年債",
@@ -127,8 +127,8 @@
       "signal": "偏多",
       "reason": "受惠於市場資金轉向金融股避風，以及財富管理與消費金融業務穩健動能，短期營收與獲利具支撐力道。唯與新光金之合併後續進度與綜效，將是主導短期股價波動的關鍵。",
       "tone": "bull",
-      "price": "42.25",
-      "price_change": "+0.24%",
+      "price": "42.50",
+      "price_change": "+0.83%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 42441,
@@ -143,9 +143,9 @@
       "signal": "中性",
       "reason": "景碩短期受惠於母公司和碩進入蘋果新機拉貨旺季，營收有望獲得支撐；然而，市場對ABF載板產業的復甦力道仍有分歧，股價短期呈現震盪整理格局。",
       "tone": "watch",
-      "price": "827.00",
-      "price_change": "+0.00%",
-      "price_trend": "neutral-text",
+      "price": "818.00",
+      "price_change": "-1.09%",
+      "price_trend": "negative",
       "margin": {
         "margin_balance": 22134,
         "margin_change": -359,
@@ -159,8 +159,8 @@
       "signal": "中性",
       "reason": "受惠於AI ASIC量產與客戶拉貨動能，聯發科8月營收創歷史新高，短期營運基本面強勁。隨後續全新旗艦手機晶片發表及與輝達在AI XPU的合作推進，中長期成長趨勢依然明確。",
       "tone": "watch",
-      "price": "4,590.00",
-      "price_change": "-2.75%",
+      "price": "4,585.00",
+      "price_change": "-2.86%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 10434,
@@ -175,8 +175,8 @@
       "signal": "偏多",
       "reason": "受惠於AI資料中心封測需求強勁，日月光8月營收衝破822億元創新高。隨著LEAP平台預期於明年翻倍成長，第四季封測毛利率有望挑戰30%大關，短期營收與獲利成長動能強勁。",
       "tone": "bull",
-      "price": "615.00",
-      "price_change": "-5.38%",
+      "price": "616.00",
+      "price_change": "-5.23%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 10380,
