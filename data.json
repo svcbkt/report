@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-10T12:23:00.591330+08:00",
-  "prices_updated_at": "2026-09-10T18:02:30.888650+08:00",
-  "report_date_text": "2026 年 09 月 10 日，星期四",
-  "news_window": "09/09 13:30",
-  "market_tone": "中性",
-  "market_tone_class": "neutral-text",
-  "market_summary": "台股短期呈現量縮震盪與三角收斂格局，在關鍵通膨數據公布前，市場觀望氣氛濃厚。預估大盤將持續在月線附近整理，資金呈板塊輪動，由營收佳及特定題材股撐盤。",
+  "generated_at": "2026-09-11T12:22:08.590770+08:00",
+  "prices_updated_at": "2026-09-11T12:22:08.590770+08:00",
+  "report_date_text": "2026 年 09 月 11 日，星期五",
+  "news_window": "09/10 13:30",
+  "market_tone": "偏空",
+  "market_tone_class": "negative",
+  "market_summary": "受美股重挫與升息疑慮衝擊，台股短期面臨強烈修正壓力，大盤預期在關鍵通膨數據公布前維持弱勢震盪尋求支撐。",
   "signal_row": [
     {
       "label": "美股焦點",
-      "text": "中性",
-      "arrow": "→",
-      "tone": "neutral-text"
+      "text": "偏空",
+      "arrow": "↓",
+      "tone": "negative"
     },
     {
       "label": "費城半導體",
@@ -21,99 +21,99 @@
     },
     {
       "label": "台股焦點",
-      "text": "中性",
-      "arrow": "→",
-      "tone": "neutral-text"
+      "text": "偏空",
+      "arrow": "↓",
+      "tone": "negative"
     }
   ],
   "taiex": {
-    "value": "46,940",
-    "change": "-0.51%",
-    "change_pct": "-0.51%",
+    "value": "46,236",
+    "change": "-1.50%",
+    "change_pct": "-1.50%",
     "tone": "negative",
     "chart_points": [
-      46551.12890625,
       47326.26953125,
       47105.78125,
       47183.359375,
-      46940.48828125
+      46940.48828125,
+      46235.5
     ]
   },
   "markets": [
     [
       "費城半導體",
-      "11,931.32",
-      "+0.37%",
-      "positive"
+      "11,614.17",
+      "-2.66%",
+      "negative"
     ],
     [
       "NASDAQ",
-      "26,253.34",
-      "-0.64%",
+      "26,081.72",
+      "-0.65%",
       "negative"
     ],
     [
       "S&P 500",
-      "7,636.36",
-      "-0.48%",
+      "7,591.70",
+      "-0.58%",
       "negative"
     ],
     [
       "日經 225",
-      "65,270.95",
-      "+0.20%",
-      "positive"
+      "63,543.07",
+      "-2.65%",
+      "negative"
     ],
     [
       "美元／台幣",
-      "31.57",
-      "+0.22%",
+      "31.61",
+      "+0.47%",
       "positive"
     ],
     [
       "台積電 ADR",
-      "435.36",
-      "-0.83%",
+      "428.03",
+      "-1.68%",
       "negative"
     ],
     [
       "布蘭特原油",
-      "102.33",
-      "+1.11%",
+      "108.04",
+      "+0.38%",
       "positive"
     ],
     [
       "美 10 年債",
-      "4.84%",
-      "+0.03",
+      "4.94%",
+      "+0.11",
       "positive"
     ]
   ],
   "news": [
     [
-      "國際油價逼近百元大關",
-      "台股短期受美股通膨擔憂壓制，但受惠AI及半導體題材支撐，預期將維持高檔震盪格局。",
-      "中性",
-      "neutral-text",
+      "美通膨升溫與國際油價飆漲引美股重挫",
+      "受美股重挫與通膨、升息疑慮再起影響，台股短期面臨強烈修正壓力，外資匯出與權值股走弱恐壓抑指數表現。",
+      "偏空",
+      "negative",
       "美股焦點"
     ],
     [
-      "美股因通膨升息擔憂走跌",
-      "台股短期受美股通膨擔憂壓制，但受惠AI及半導體題材支撐，預期將維持高檔震盪格局。",
-      "中性",
-      "neutral-text",
+      "聯準會升息預期再起致美債殖利率走揚",
+      "受美股重挫與通膨、升息疑慮再起影響，台股短期面臨強烈修正壓力，外資匯出與權值股走弱恐壓抑指數表現。",
+      "偏空",
+      "negative",
       "美股焦點"
     ],
     [
-      "英特爾與超微領漲半導體類股",
-      "台股短期受美股高油價與升息預期壓抑，但AI半導體基本面強韌，預期呈現震盪整理格局。",
+      "費半重挫拖累台股，市場信心面臨考驗",
+      "受美股費半震盪影響，台股短期面臨修正與量縮整理壓力，但台積電等權值股基本面強勁，預期指數將呈區間震盪築底格局。",
       "中性",
       "neutral-text",
       "費城半導體"
     ],
     [
-      "油價破百及聯準會升息機率升溫",
-      "台股短期受美股高油價與升息預期壓抑，但AI半導體基本面強韌，預期呈現震盪整理格局。",
+      "台積電8月營收創高，AI需求強勁撐盤",
+      "受美股費半震盪影響，台股短期面臨修正與量縮整理壓力，但台積電等權值股基本面強勁，預期指數將呈區間震盪築底格局。",
       "中性",
       "neutral-text",
       "費城半導體"
@@ -125,64 +125,64 @@
       "symbol": "2887",
       "name": "台新金",
       "signal": "偏多",
-      "reason": "隨台新新光金合併案推進，結合雙方銀行與壽險優勢將顯著擴大營運規模，且財富管理業務受惠數位體驗升級，短期獲利成長動能看好。",
+      "reason": "受惠於市場資金轉向金融股避風，以及財富管理與消費金融業務穩健動能，短期營收與獲利具支撐力道。唯與新光金之合併後續進度與綜效，將是主導短期股價波動的關鍵。",
       "tone": "bull",
-      "price": "42.15",
-      "price_change": "-0.59%",
-      "price_trend": "negative",
+      "price": "42.25",
+      "price_change": "+0.24%",
+      "price_trend": "positive",
       "margin": {
-        "margin_balance": 42508,
-        "margin_change": 454,
+        "margin_balance": 42441,
+        "margin_change": -67,
         "short_balance": 372,
-        "short_change": -98
+        "short_change": 0
       }
     },
     {
       "symbol": "3189",
       "name": "景碩",
-      "signal": "偏多",
-      "reason": "受惠於AI應用爆發帶動高階IC載板需求，短期營收隨產業復甦逐步回溫，中長期在產值年增看好下展現強勁成長動能。",
-      "tone": "bull",
+      "signal": "中性",
+      "reason": "景碩短期受惠於母公司和碩進入蘋果新機拉貨旺季，營收有望獲得支撐；然而，市場對ABF載板產業的復甦力道仍有分歧，股價短期呈現震盪整理格局。",
+      "tone": "watch",
       "price": "827.00",
-      "price_change": "+1.85%",
-      "price_trend": "positive",
+      "price_change": "+0.00%",
+      "price_trend": "neutral-text",
       "margin": {
-        "margin_balance": 22493,
-        "margin_change": -164,
-        "short_balance": 275,
-        "short_change": -7
+        "margin_balance": 22134,
+        "margin_change": -359,
+        "short_balance": 312,
+        "short_change": 37
       }
     },
     {
       "symbol": "2454",
       "name": "聯發科",
-      "signal": "偏多",
-      "reason": "受益於新旗艦天璣晶片即將發表及AI ASIC市佔率上調，短期營收有望維持增長。與輝達的策略結盟更奠定了中長期在AI及車用晶片市場的領先地位。",
-      "tone": "bull",
-      "price": "4,720.00",
-      "price_change": "+2.05%",
-      "price_trend": "positive",
+      "signal": "中性",
+      "reason": "受惠於AI ASIC量產與客戶拉貨動能，聯發科8月營收創歷史新高，短期營運基本面強勁。隨後續全新旗艦手機晶片發表及與輝達在AI XPU的合作推進，中長期成長趨勢依然明確。",
+      "tone": "watch",
+      "price": "4,590.00",
+      "price_change": "-2.75%",
+      "price_trend": "negative",
       "margin": {
-        "margin_balance": 10447,
-        "margin_change": 127,
-        "short_balance": 59,
-        "short_change": -13
+        "margin_balance": 10434,
+        "margin_change": -13,
+        "short_balance": 66,
+        "short_change": 7
       }
     },
     {
       "symbol": "3711",
       "name": "日月光投控",
       "signal": "偏多",
-      "reason": "受惠於AI先進封測需求強勁及FOPLP量產布局，公司短期營運動能暢旺。隨著大客戶新晶片陸續拉貨，預期第四季營收與整體稼動率仍有望維持高檔水準。",
+      "reason": "受惠於AI資料中心封測需求強勁，日月光8月營收衝破822億元創新高。隨著LEAP平台預期於明年翻倍成長，第四季封測毛利率有望挑戰30%大關，短期營收與獲利成長動能強勁。",
       "tone": "bull",
-      "price": "650.00",
-      "price_change": "+1.56%",
-      "price_trend": "positive",
+      "price": "615.00",
+      "price_change": "-5.38%",
+      "price_trend": "negative",
       "margin": {
-        "margin_balance": 10945,
-        "margin_change": -721,
-        "short_balance": 193,
-        "short_change": 22
+        "margin_balance": 10380,
+        "margin_change": -565,
+        "short_balance": 211,
+        "short_change": 18
       }
     }
   ]
