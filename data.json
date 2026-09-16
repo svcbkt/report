@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-16T12:36:30.718896+08:00",
-  "prices_updated_at": "2026-09-16T13:35:26.238063+08:00",
+  "prices_updated_at": "2026-09-16T18:18:00.208489+08:00",
   "report_date_text": "2026 年 09 月 16 日，星期三",
   "news_window": "09/15 13:30",
   "market_tone": "中性",
@@ -27,16 +27,16 @@
     }
   ],
   "taiex": {
-    "value": "45,773",
-    "change": "+0.57%",
-    "change_pct": "+0.57%",
+    "value": "45,849",
+    "change": "+0.74%",
+    "change_pct": "+0.74%",
     "tone": "positive",
     "chart_points": [
       46940.48828125,
       46184.8515625,
       45862.51953125,
       45511.48828125,
-      45772.8984375
+      45848.8984375
     ]
   },
   "markets": [
@@ -60,14 +60,14 @@
     ],
     [
       "日經 225",
-      "63,668.60",
-      "+0.29%",
+      "63,923.00",
+      "+0.69%",
       "positive"
     ],
     [
       "美元／台幣",
-      "31.73",
-      "+0.03%",
+      "31.78",
+      "+0.19%",
       "positive"
     ],
     [
@@ -78,8 +78,8 @@
     ],
     [
       "布蘭特原油",
-      "108.12",
-      "-0.58%",
+      "107.74",
+      "-0.93%",
       "negative"
     ],
     [
@@ -127,8 +127,8 @@
       "signal": "偏多",
       "reason": "受惠於整體金融市場熱絡，台新新光金前8月獲利創下歷史新高，短期營運維持強勁增長動能。此外，公司積極將AI技術導入保險與期貨業務，有助於提升長期營運效率與競爭力。",
       "tone": "bull",
-      "price": "44.35",
-      "price_change": "+2.19%",
+      "price": "44.40",
+      "price_change": "+2.30%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 42863,
@@ -143,8 +143,8 @@
       "signal": "偏多",
       "reason": "受惠於AI強勁動能與BT載板需求，公司短期營收表現亮眼。雖面臨出貨受限瓶頸，但長線產能能見度高，整體獲利預估持續獲法人調升。",
       "tone": "bull",
-      "price": "814.00",
-      "price_change": "+2.39%",
+      "price": "820.00",
+      "price_change": "+3.14%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 22622,
@@ -159,8 +159,8 @@
       "signal": "偏多",
       "reason": "聯發科憑藉首款2奈米旗艦手機晶片與NVIDIA的策略合作，積極搶攻AI PC、手機與ASIC市場，預期將顯著拉升第四季營收與高端晶片市佔率。",
       "tone": "bull",
-      "price": "4,545.00",
-      "price_change": "+2.60%",
+      "price": "4,530.00",
+      "price_change": "+2.26%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 10240,
@@ -175,8 +175,8 @@
       "signal": "偏多",
       "reason": "受惠於AI與邊緣運算對高階封裝的強勁需求，日月光積極擴大資本支出衝刺產能，短期營收與稼動率有望隨客戶拉貨回升而逐步走強。",
       "tone": "bull",
-      "price": "604.00",
-      "price_change": "+2.03%",
+      "price": "605.00",
+      "price_change": "+2.20%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 11418,
