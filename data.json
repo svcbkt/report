@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-17T12:41:46.659741+08:00",
-  "prices_updated_at": "2026-09-17T13:40:47.564454+08:00",
+  "prices_updated_at": "2026-09-17T18:25:49.029841+08:00",
   "report_date_text": "2026 年 09 月 17 日，星期四",
   "news_window": "09/16 13:30",
   "market_tone": "中性",
@@ -27,16 +27,16 @@
     }
   ],
   "taiex": {
-    "value": "46,287",
-    "change": "+0.95%",
-    "change_pct": "+0.95%",
+    "value": "46,288",
+    "change": "+0.96%",
+    "change_pct": "+0.96%",
     "tone": "positive",
     "chart_points": [
       46184.8515625,
       45862.51953125,
       45511.48828125,
       45848.8984375,
-      46286.53125
+      46288.0
     ]
   },
   "markets": [
@@ -60,14 +60,14 @@
     ],
     [
       "日經 225",
-      "64,100.02",
-      "+0.28%",
+      "64,136.25",
+      "+0.33%",
       "positive"
     ],
     [
       "美元／台幣",
-      "31.87",
-      "+0.29%",
+      "31.88",
+      "+0.32%",
       "positive"
     ],
     [
@@ -78,8 +78,8 @@
     ],
     [
       "布蘭特原油",
-      "105.57",
-      "-0.25%",
+      "99.47",
+      "-6.01%",
       "negative"
     ],
     [
@@ -127,9 +127,9 @@
       "signal": "中性",
       "reason": "台新金受惠於銀行核心業務與金融業整體獲利成長，短期基本面仍具支撐；惟受併購題材與市場籌碼多空拉鋸影響，短期股價將維持震盪整理格局。",
       "tone": "watch",
-      "price": "44.40",
-      "price_change": "+0.00%",
-      "price_trend": "neutral-text",
+      "price": "44.05",
+      "price_change": "-0.79%",
+      "price_trend": "negative",
       "margin": {
         "margin_balance": 43186,
         "margin_change": 323,
@@ -143,8 +143,8 @@
       "signal": "偏多",
       "reason": "受惠AI伺服器需求及ABF載板供需缺口擴大，景碩高階產品能見度顯著提升，搭配10月航空城合作案推進，短期營運具備成長動能。",
       "tone": "bull",
-      "price": "802.00",
-      "price_change": "-2.20%",
+      "price": "805.00",
+      "price_change": "-1.83%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 23342,
@@ -159,8 +159,8 @@
       "signal": "偏多",
       "reason": "聯發科受惠新一代旗艦晶片亮相與5G定位技術突破，短期內可望隨新機拉貨潮推升營運表現。除息秒填息亦顯示市場資金對其先進製程與產品競爭力深具信心。",
       "tone": "bull",
-      "price": "4,525.00",
-      "price_change": "-0.11%",
+      "price": "4,500.00",
+      "price_change": "-0.66%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 10325,
