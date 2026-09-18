@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-18T12:27:17.661028+08:00",
-  "prices_updated_at": "2026-09-18T13:29:55.519774+08:00",
+  "prices_updated_at": "2026-09-18T18:00:12.463002+08:00",
   "report_date_text": "2026 年 09 月 18 日，星期五",
   "news_window": "09/17 13:30",
   "market_tone": "偏多",
@@ -27,16 +27,16 @@
     }
   ],
   "taiex": {
-    "value": "47,125",
-    "change": "+1.81%",
-    "change_pct": "+1.81%",
+    "value": "47,181",
+    "change": "+1.93%",
+    "change_pct": "+1.93%",
     "tone": "positive",
     "chart_points": [
       45862.51953125,
       45511.48828125,
       45848.8984375,
       46288.0,
-      47124.51171875
+      47180.75
     ]
   },
   "markets": [
@@ -60,14 +60,14 @@
     ],
     [
       "日經 225",
-      "65,322.53",
-      "+1.85%",
+      "65,018.95",
+      "+1.38%",
       "positive"
     ],
     [
       "美元／台幣",
-      "31.80",
-      "-0.20%",
+      "31.79",
+      "-0.21%",
       "negative"
     ],
     [
@@ -78,8 +78,8 @@
     ],
     [
       "布蘭特原油",
-      "103.72",
-      "-1.05%",
+      "98.87",
+      "-5.68%",
       "negative"
     ],
     [
@@ -127,9 +127,9 @@
       "signal": "偏多",
       "reason": "隨著台新新光金合併效應帶動市值大增，公司成功躋身兆元金控並大幅提振市場信心。搭配整體金控獲利回溫趨勢，短期內在資產規模擴張的綜效想像下，營運前景與股價動能皆值得期待。",
       "tone": "bull",
-      "price": "42.95",
-      "price_change": "-2.50%",
-      "price_trend": "negative",
+      "price": "44.40",
+      "price_change": "+0.79%",
+      "price_trend": "positive",
       "margin": {
         "margin_balance": 41054,
         "margin_change": -2132,
@@ -143,8 +143,8 @@
       "signal": "偏多",
       "reason": "受惠AI需求引爆ABF載板超級循環，供需缺口擴大與報價調漲將顯著挹注短期營收與獲利成長動能。",
       "tone": "bull",
-      "price": "827.00",
-      "price_change": "+2.73%",
+      "price": "832.00",
+      "price_change": "+3.35%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 23414,
@@ -159,8 +159,8 @@
       "signal": "偏多",
       "reason": "聯發科推出首款2奈米天璣9600 Pro晶片並獲vivo等大廠首發採用，展現領先的AI技術實力。隨著高階晶片陸續出貨，有望拉高產品平均單價，為短期營收與毛利率帶來正面挹注。",
       "tone": "bull",
-      "price": "4,730.00",
-      "price_change": "+5.11%",
+      "price": "4,710.00",
+      "price_change": "+4.67%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 10289,
@@ -175,8 +175,8 @@
       "signal": "偏多",
       "reason": "受惠於AI先進封裝與載板需求強勁，第三季營運指引展望亮眼，預期將帶動整體營收與獲利動能顯著轉強。隨封測產業景氣逐步回溫，公司在先進封裝領域的領先地位將持續挹注成長。",
       "tone": "bull",
-      "price": "641.00",
-      "price_change": "+4.40%",
+      "price": "638.00",
+      "price_change": "+3.91%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 10895,
