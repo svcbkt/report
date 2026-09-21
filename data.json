@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-21T12:44:09.552557+08:00",
-  "prices_updated_at": "2026-09-21T12:44:09.552557+08:00",
+  "prices_updated_at": "2026-09-21T13:49:17.968228+08:00",
   "report_date_text": "2026 年 09 月 21 日，星期一",
   "news_window": "09/18 13:30",
   "market_tone": "中性",
@@ -27,7 +27,7 @@
     }
   ],
   "taiex": {
-    "value": "47,713",
+    "value": "47,712",
     "change": "+1.13%",
     "change_pct": "+1.13%",
     "tone": "positive",
@@ -36,7 +36,7 @@
       45848.8984375,
       46288.0,
       47180.75,
-      47712.51953125
+      47712.3515625
     ]
   },
   "markets": [
@@ -66,8 +66,8 @@
     ],
     [
       "美元／台幣",
-      "31.77",
-      "-0.25%",
+      "31.78",
+      "-0.23%",
       "negative"
     ],
     [
@@ -78,8 +78,8 @@
     ],
     [
       "布蘭特原油",
-      "97.45",
-      "-6.18%",
+      "97.75",
+      "-5.89%",
       "negative"
     ],
     [
@@ -127,8 +127,8 @@
       "signal": "偏多",
       "reason": "公司獲利表現亮眼且創下新高，短期受惠於降息預期、指數調整技術性買盤及政策利多，營運動能偏向樂觀。",
       "tone": "bull",
-      "price": "44.35",
-      "price_change": "-0.11%",
+      "price": "43.95",
+      "price_change": "-1.01%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 41456,
@@ -143,9 +143,9 @@
       "signal": "中性",
       "reason": "受惠於AI伺服器需求點火與ABF載板漲價循環，景碩持續擴產以搶攻先進封裝與美系大廠訂單。然而，短期內其股價表現與同業出現分化，營運動能回升速度仍待產能與稼動率進一步確認。",
       "tone": "watch",
-      "price": "843.00",
-      "price_change": "+1.32%",
-      "price_trend": "positive",
+      "price": "830.00",
+      "price_change": "-0.24%",
+      "price_trend": "negative",
       "margin": {
         "margin_balance": 22515,
         "margin_change": -899,
@@ -159,8 +159,8 @@
       "signal": "偏多",
       "reason": "聯發科在手機晶片持穩下，AI ASIC新業務預計於第四季啟動量產，為營運注入第二成長引擎。隨著IC設計產業景氣復甦與外資持續加碼，公司短期營收及獲利成長動能展望樂觀。",
       "tone": "bull",
-      "price": "4,970.00",
-      "price_change": "+5.52%",
+      "price": "4,995.00",
+      "price_change": "+6.05%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 10533,
@@ -175,8 +175,8 @@
       "signal": "偏多",
       "reason": "隨著半導體先進封裝需求爆發，日月光大舉擴產並啟動漲價計畫，短期營運成長動能強勁。受惠AI晶片對先進封測的剛性需求，預期將持續推升營收表現並優化毛利率。",
       "tone": "bull",
-      "price": "665.00",
-      "price_change": "+4.23%",
+      "price": "663.00",
+      "price_change": "+3.92%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 11114,
