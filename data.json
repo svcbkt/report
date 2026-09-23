@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-23T12:33:00.226692+08:00",
-  "prices_updated_at": "2026-09-23T13:27:05.774235+08:00",
+  "prices_updated_at": "2026-09-23T18:12:44.808610+08:00",
   "report_date_text": "2026 年 09 月 23 日，星期三",
   "news_window": "09/22 13:30",
   "market_tone": "偏多",
@@ -27,15 +27,15 @@
     }
   ],
   "taiex": {
-    "value": "48,110",
-    "change": "+0.82%",
-    "change_pct": "+0.82%",
+    "value": "48,157",
+    "change": "+0.92%",
+    "change_pct": "+0.92%",
     "tone": "positive",
     "chart_points": [
       46288.0,
       47180.75,
       47718.83984375,
-      48110.12890625
+      48157.2890625
     ]
   },
   "markets": [
@@ -65,8 +65,8 @@
     ],
     [
       "美元／台幣",
-      "31.70",
-      "-0.12%",
+      "31.64",
+      "-0.30%",
       "negative"
     ],
     [
@@ -77,8 +77,8 @@
     ],
     [
       "布蘭特原油",
-      "98.45",
-      "-0.81%",
+      "95.64",
+      "-3.64%",
       "negative"
     ],
     [
@@ -126,8 +126,8 @@
       "signal": "偏多",
       "reason": "台新金積極布局RWA與存款代幣試辦，有望在數位金融創新領域取得先發優勢。短期獲利與評價則持續受到與新光金合併整合進度及壽險子公司財務表現牽制。",
       "tone": "bull",
-      "price": "43.05",
-      "price_change": "+0.35%",
+      "price": "42.95",
+      "price_change": "+0.12%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 42077,
@@ -142,8 +142,8 @@
       "signal": "偏多",
       "reason": "受惠CoWoS及高階晶片需求增加，ABF載板產業長期缺口看好，短期內景碩營運動能有望隨稼動率回升而轉強。然而，母公司處分股權的籌碼面因素，短期可能部分壓抑股價上漲空間。",
       "tone": "bull",
-      "price": "905.00",
-      "price_change": "-0.44%",
+      "price": "906.00",
+      "price_change": "-0.33%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 22197,
@@ -174,9 +174,9 @@
       "signal": "偏多",
       "reason": "受惠於AI與先進封裝需求強勁，日月光短期內在外資資金持續挹注與ADR溢價帶動下，整體營運與股價表現預期維持偏多格局。",
       "tone": "bull",
-      "price": "692.00",
-      "price_change": "-0.14%",
-      "price_trend": "negative",
+      "price": "693.00",
+      "price_change": "+0.00%",
+      "price_trend": "neutral-text",
       "margin": {
         "margin_balance": 9537,
         "margin_change": -696,
