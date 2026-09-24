@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-24T12:31:08.504125+08:00",
-  "prices_updated_at": "2026-09-24T12:31:08.504125+08:00",
+  "prices_updated_at": "2026-09-24T13:47:49.042429+08:00",
   "report_date_text": "2026 年 09 月 24 日，星期四",
   "news_window": "09/23 13:30",
   "market_tone": "中性",
@@ -27,15 +27,15 @@
     }
   ],
   "taiex": {
-    "value": "47,879",
-    "change": "-0.58%",
-    "change_pct": "-0.58%",
+    "value": "48,038",
+    "change": "-0.25%",
+    "change_pct": "-0.25%",
     "tone": "negative",
     "chart_points": [
       47180.75,
       47718.83984375,
       48157.2890625,
-      47879.01171875
+      48038.26953125
     ]
   },
   "markets": [
@@ -59,14 +59,14 @@
     ],
     [
       "日經 225",
-      "65,679.00",
-      "+1.02%",
+      "65,870.31",
+      "+1.31%",
       "positive"
     ],
     [
       "美元／台幣",
-      "31.84",
-      "+0.52%",
+      "31.81",
+      "+0.41%",
       "positive"
     ],
     [
@@ -77,8 +77,8 @@
     ],
     [
       "布蘭特原油",
-      "97.41",
-      "-5.50%",
+      "97.82",
+      "-5.10%",
       "negative"
     ],
     [
@@ -126,8 +126,8 @@
       "signal": "中性",
       "reason": "台新金短期內雖有品牌與獎項肯定，但受央行信用管制政策影響，房貸業務放款動能恐受限，且與新光金之合併綜效仍待時間顯現。",
       "tone": "watch",
-      "price": "42.55",
-      "price_change": "-0.93%",
+      "price": "42.70",
+      "price_change": "-0.58%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 42085,
@@ -142,8 +142,8 @@
       "signal": "偏多",
       "reason": "受惠於ABF載板報價上漲與市場缺貨潮，景碩短期營收與獲利成長動能強勁。隨著新產能陸續開出，下半年營運表現預期將顯著優於上半年。",
       "tone": "bull",
-      "price": "956.00",
-      "price_change": "+5.52%",
+      "price": "958.00",
+      "price_change": "+5.74%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 21207,
@@ -158,8 +158,8 @@
       "signal": "偏多",
       "reason": "受惠於Google TPU與ASIC客製化晶片市場的龐大商機，聯發科短期內在AI領域的成長動能強勁。此外，與子公司達發的技術協同效應，將進一步推升其在通訊與高速傳輸市場的市佔率。",
       "tone": "bull",
-      "price": "5,230.00",
-      "price_change": "+0.87%",
+      "price": "5,270.00",
+      "price_change": "+1.64%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 10300,
@@ -174,9 +174,9 @@
       "signal": "偏多",
       "reason": "受惠AI伺服器與先進封裝需求強勁，加上台積電外溢轉單，日月光八月營收表現亮眼。預期在產能持續擴充與客戶放量下，短期營收與獲利將維持成長軌跡。",
       "tone": "bull",
-      "price": "691.00",
-      "price_change": "-0.29%",
-      "price_trend": "negative",
+      "price": "696.00",
+      "price_change": "+0.43%",
+      "price_trend": "positive",
       "margin": {
         "margin_balance": 9207,
         "margin_change": -330,
