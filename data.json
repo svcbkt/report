@@ -1,120 +1,120 @@
 {
-  "generated_at": "2026-09-23T12:33:00.226692+08:00",
-  "prices_updated_at": "2026-09-23T18:12:44.808610+08:00",
-  "report_date_text": "2026 年 09 月 23 日，星期三",
-  "news_window": "09/22 13:30",
-  "market_tone": "偏多",
-  "market_tone_class": "positive",
-  "market_summary": "台股在權值股與AI、記憶體等族群帶領下再創歷史新高，雖面臨高檔獲利了結賣壓而加劇震盪，但整體多頭趨勢仍未改變。短期內大盤預期將呈高檔震盪整理格局，靜待籌碼沉澱後再度攻高。",
+  "generated_at": "2026-09-24T12:31:08.504125+08:00",
+  "prices_updated_at": "2026-09-24T12:31:08.504125+08:00",
+  "report_date_text": "2026 年 09 月 24 日，星期四",
+  "news_window": "09/23 13:30",
+  "market_tone": "中性",
+  "market_tone_class": "neutral-text",
+  "market_summary": "台股因短線漲多面臨拉回修正壓力，台積電等權值股走弱。加上中秋節前市場觀望氣氛轉濃，短期大盤預期將呈現震盪整理格局。",
   "signal_row": [
     {
       "label": "美股焦點",
-      "text": "偏多",
-      "arrow": "↑",
-      "tone": "positive"
+      "text": "偏空",
+      "arrow": "↓",
+      "tone": "negative"
     },
     {
       "label": "費城半導體",
-      "text": "偏多",
-      "arrow": "↑",
-      "tone": "positive"
+      "text": "偏空",
+      "arrow": "↓",
+      "tone": "negative"
     },
     {
       "label": "台股焦點",
-      "text": "偏多",
-      "arrow": "↑",
-      "tone": "positive"
+      "text": "中性",
+      "arrow": "→",
+      "tone": "neutral-text"
     }
   ],
   "taiex": {
-    "value": "48,157",
-    "change": "+0.92%",
-    "change_pct": "+0.92%",
-    "tone": "positive",
+    "value": "47,879",
+    "change": "-0.58%",
+    "change_pct": "-0.58%",
+    "tone": "negative",
     "chart_points": [
-      46288.0,
       47180.75,
       47718.83984375,
-      48157.2890625
+      48157.2890625,
+      47879.01171875
     ]
   },
   "markets": [
     [
       "費城半導體",
-      "12,433.17",
-      "+4.29%",
+      "12,534.28",
+      "+0.81%",
       "positive"
     ],
     [
       "NASDAQ",
-      "nan",
-      "+nan%",
-      "neutral-text"
+      "26,936.04",
+      "-0.69%",
+      "negative"
     ],
     [
       "S&P 500",
-      "nan",
-      "+nan%",
-      "neutral-text"
+      "7,706.03",
+      "-0.76%",
+      "negative"
     ],
     [
       "日經 225",
-      "65,018.95",
-      "+1.38%",
+      "65,679.00",
+      "+1.02%",
       "positive"
     ],
     [
       "美元／台幣",
-      "31.64",
-      "-0.30%",
-      "negative"
+      "31.84",
+      "+0.52%",
+      "positive"
     ],
     [
       "台積電 ADR",
-      "nan",
-      "+nan%",
-      "neutral-text"
+      "446.57",
+      "-1.20%",
+      "negative"
     ],
     [
       "布蘭特原油",
-      "95.64",
-      "-3.64%",
+      "97.41",
+      "-5.50%",
       "negative"
     ],
     [
       "美 10 年債",
-      "4.96%",
-      "-0.04",
-      "negative"
+      "5.11%",
+      "+0.15",
+      "positive"
     ]
   ],
   "news": [
     [
-      "AI與晶片股強勁，那指費半續創新高",
-      "受惠美股科技股創高，台股中長線維持多頭格局，但短線面臨高檔獲利了結壓力，預期呈現震盪整理。",
-      "偏多",
-      "positive",
+      "美債殖利率創19年新高",
+      "受美債殖利率高企與美股股債雙殺拖累，台股短期面臨外資提款與權值股修正壓力，整體走勢偏弱並將測試下方支撐。",
+      "偏空",
+      "negative",
       "美股焦點"
     ],
     [
-      "中東局勢降溫，國際油價重挫",
-      "受惠美股科技股創高，台股中長線維持多頭格局，但短線面臨高檔獲利了結壓力，預期呈現震盪整理。",
-      "偏多",
-      "positive",
+      "通膨與美聯儲升息疑慮",
+      "受美債殖利率高企與美股股債雙殺拖累，台股短期面臨外資提款與權值股修正壓力，整體走勢偏弱並將測試下方支撐。",
+      "偏空",
+      "negative",
       "美股焦點"
     ],
     [
-      "費半大漲，外資狂吸載板與IP",
-      "受惠於半導體急拉與強勁外銷基本面，台股短期內有望維持多頭格局並挑戰新高。",
-      "偏多",
-      "positive",
+      "美債殖利率飆升創高",
+      "受美債殖利率高企與費半修正壓抑，台股短期將面臨震盪，但在台積電相對抗跌下，預期呈現下有撐的整理格局。",
+      "偏空",
+      "negative",
       "費城半導體"
     ],
     [
-      "美股創新高，聚焦科技與利率",
-      "受惠於半導體急拉與強勁外銷基本面，台股短期內有望維持多頭格局並挑戰新高。",
-      "偏多",
-      "positive",
+      "費半跌深而台積電抗跌",
+      "受美債殖利率高企與費半修正壓抑，台股短期將面臨震盪，但在台積電相對抗跌下，預期呈現下有撐的整理格局。",
+      "偏空",
+      "negative",
       "費城半導體"
     ]
   ],
@@ -123,65 +123,65 @@
     {
       "symbol": "2887",
       "name": "台新金",
-      "signal": "偏多",
-      "reason": "台新金積極布局RWA與存款代幣試辦，有望在數位金融創新領域取得先發優勢。短期獲利與評價則持續受到與新光金合併整合進度及壽險子公司財務表現牽制。",
-      "tone": "bull",
-      "price": "42.95",
-      "price_change": "+0.12%",
-      "price_trend": "positive",
+      "signal": "中性",
+      "reason": "台新金短期內雖有品牌與獎項肯定，但受央行信用管制政策影響，房貸業務放款動能恐受限，且與新光金之合併綜效仍待時間顯現。",
+      "tone": "watch",
+      "price": "42.55",
+      "price_change": "-0.93%",
+      "price_trend": "negative",
       "margin": {
-        "margin_balance": 42077,
-        "margin_change": 574,
-        "short_balance": 420,
-        "short_change": -35
+        "margin_balance": 42085,
+        "margin_change": 8,
+        "short_balance": 395,
+        "short_change": -25
       }
     },
     {
       "symbol": "3189",
       "name": "景碩",
       "signal": "偏多",
-      "reason": "受惠CoWoS及高階晶片需求增加，ABF載板產業長期缺口看好，短期內景碩營運動能有望隨稼動率回升而轉強。然而，母公司處分股權的籌碼面因素，短期可能部分壓抑股價上漲空間。",
+      "reason": "受惠於ABF載板報價上漲與市場缺貨潮，景碩短期營收與獲利成長動能強勁。隨著新產能陸續開出，下半年營運表現預期將顯著優於上半年。",
       "tone": "bull",
-      "price": "906.00",
-      "price_change": "-0.33%",
-      "price_trend": "negative",
+      "price": "956.00",
+      "price_change": "+5.52%",
+      "price_trend": "positive",
       "margin": {
-        "margin_balance": 22197,
-        "margin_change": -925,
-        "short_balance": 795,
-        "short_change": 518
+        "margin_balance": 21207,
+        "margin_change": -990,
+        "short_balance": 706,
+        "short_change": -89
       }
     },
     {
       "symbol": "2454",
       "name": "聯發科",
       "signal": "偏多",
-      "reason": "聯發科攜手Google推出AI PC晶片，積極拓展非手機領域，且新一代2奈米技術競爭力強勁。隨著第四季拉貨旺季與AI終端滲透率提升，短期營收與獲利展望維持成長態勢。",
+      "reason": "受惠於Google TPU與ASIC客製化晶片市場的龐大商機，聯發科短期內在AI領域的成長動能強勁。此外，與子公司達發的技術協同效應，將進一步推升其在通訊與高速傳輸市場的市佔率。",
       "tone": "bull",
-      "price": "5,185.00",
-      "price_change": "+0.10%",
+      "price": "5,230.00",
+      "price_change": "+0.87%",
       "price_trend": "positive",
       "margin": {
-        "margin_balance": 10358,
-        "margin_change": -263,
-        "short_balance": 80,
-        "short_change": 17
+        "margin_balance": 10300,
+        "margin_change": -58,
+        "short_balance": 73,
+        "short_change": -7
       }
     },
     {
       "symbol": "3711",
       "name": "日月光投控",
       "signal": "偏多",
-      "reason": "受惠於AI與先進封裝需求強勁，日月光短期內在外資資金持續挹注與ADR溢價帶動下，整體營運與股價表現預期維持偏多格局。",
+      "reason": "受惠AI伺服器與先進封裝需求強勁，加上台積電外溢轉單，日月光八月營收表現亮眼。預期在產能持續擴充與客戶放量下，短期營收與獲利將維持成長軌跡。",
       "tone": "bull",
-      "price": "693.00",
-      "price_change": "+0.00%",
-      "price_trend": "neutral-text",
+      "price": "691.00",
+      "price_change": "-0.29%",
+      "price_trend": "negative",
       "margin": {
-        "margin_balance": 9537,
-        "margin_change": -696,
-        "short_balance": 289,
-        "short_change": 54
+        "margin_balance": 9207,
+        "margin_change": -330,
+        "short_balance": 302,
+        "short_change": 13
       }
     }
   ]
