@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-30T13:25:11.163071+08:00",
-  "prices_updated_at": "2026-09-30T13:25:11.163071+08:00",
+  "prices_updated_at": "2026-09-30T14:15:16.223850+08:00",
   "report_date_text": "2026 年 09 月 30 日，星期三",
   "news_window": "09/29 13:30",
   "market_tone": "中性",
@@ -27,16 +27,16 @@
     }
   ],
   "taiex": {
-    "value": "48,236",
-    "change": "+1.27%",
-    "change_pct": "+1.27%",
+    "value": "47,940",
+    "change": "+0.65%",
+    "change_pct": "+0.65%",
     "tone": "positive",
     "chart_points": [
       47800.171875,
       48157.2890625,
       48024.6015625,
       47631.9609375,
-      48236.1796875
+      47940.12890625
     ]
   },
   "markets": [
@@ -60,14 +60,14 @@
     ],
     [
       "日經 225",
-      "66,783.65",
-      "+1.99%",
+      "66,819.53",
+      "+2.04%",
       "positive"
     ],
     [
       "美元／台幣",
-      "31.87",
-      "+0.29%",
+      "31.81",
+      "+0.09%",
       "positive"
     ],
     [
@@ -78,8 +78,8 @@
     ],
     [
       "布蘭特原油",
-      "96.50",
-      "-5.94%",
+      "96.08",
+      "-6.35%",
       "negative"
     ],
     [
@@ -127,8 +127,8 @@
       "signal": "中性",
       "reason": "台新金與新光金合併案持續推進，中長期具備資產規模擴大之綜效。然而短期受外資賣超壓抑，營運整合期股價預期呈震盪格局。",
       "tone": "watch",
-      "price": "42.25",
-      "price_change": "+1.08%",
+      "price": "41.95",
+      "price_change": "+0.36%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 42253,
@@ -143,8 +143,8 @@
       "signal": "偏多",
       "reason": "景碩成功奪得輝達Vera CPU半數訂單，短期內將顯著受惠於AI伺服器高階載板的強勁需求。隨著新產品陸續出貨，預期將帶動產能利用率回升，營收與獲利具備爆發性成長動能。",
       "tone": "bull",
-      "price": "964.00",
-      "price_change": "+0.94%",
+      "price": "970.00",
+      "price_change": "+1.57%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 21165,
@@ -159,8 +159,8 @@
       "signal": "偏多",
       "reason": "隨著聯發科澄清Google TPU掉單傳聞，市場信心明顯回溫。在台積電先進封裝技術支援與新一代晶片需求帶動下，短期營收與產品競爭力可望維持強勁增長趨勢。",
       "tone": "bull",
-      "price": "4,985.00",
-      "price_change": "+1.53%",
+      "price": "4,920.00",
+      "price_change": "+0.20%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 10796,
@@ -175,8 +175,8 @@
       "signal": "偏多",
       "reason": "日月光投控積極擴充海內外產能並深化AI先進封裝布局，在9月營收表現強勁的基調下，短期營運動能看俏。",
       "tone": "bull",
-      "price": "708.00",
-      "price_change": "+3.06%",
+      "price": "703.00",
+      "price_change": "+2.33%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 8950,
