@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-02T13:23:09.405727+08:00",
-  "prices_updated_at": "2026-10-02T13:23:09.405727+08:00",
+  "prices_updated_at": "2026-10-02T14:36:35.986504+08:00",
   "report_date_text": "2026 年 10 月 02 日，星期五",
   "news_window": "10/01 13:30",
   "market_tone": "偏多",
@@ -27,16 +27,16 @@
     }
   ],
   "taiex": {
-    "value": "48,462",
-    "change": "+0.23%",
-    "change_pct": "+0.23%",
+    "value": "48,476",
+    "change": "+0.25%",
+    "change_pct": "+0.25%",
     "tone": "positive",
     "chart_points": [
       48024.6015625,
       47631.9609375,
       47940.12890625,
       48353.48828125,
-      48462.390625
+      48475.73828125
     ]
   },
   "markets": [
@@ -60,15 +60,15 @@
     ],
     [
       "日經 225",
-      "68,259.79",
-      "-1.01%",
+      "68,233.33",
+      "-1.05%",
       "negative"
     ],
     [
       "美元／台幣",
-      "31.94",
-      "+0.24%",
-      "positive"
+      "31.86",
+      "-0.03%",
+      "negative"
     ],
     [
       "台積電 ADR",
@@ -78,8 +78,8 @@
     ],
     [
       "布蘭特原油",
-      "101.71",
-      "-0.59%",
+      "101.67",
+      "-0.63%",
       "negative"
     ],
     [
@@ -143,8 +143,8 @@
       "signal": "偏多",
       "reason": "受惠於ABF載板市場需求暢旺與報價調漲，景碩短期獲利將維持強勁增長，產能開出後有望帶動營收再創歷史新高。",
       "tone": "bull",
-      "price": "1,055.00",
-      "price_change": "+4.46%",
+      "price": "1,050.00",
+      "price_change": "+3.96%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 20273,
@@ -159,8 +159,8 @@
       "signal": "偏空",
       "reason": "短期內受權值股休兵與市場資金輪動影響，股價面臨整理壓力。然而，身為多檔主動式與高配息ETF之核心持股，在技術面修正後預期仍具備基本面支撐。",
       "tone": "bear",
-      "price": "4,945.00",
-      "price_change": "-0.70%",
+      "price": "4,950.00",
+      "price_change": "-0.60%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 10852,
@@ -175,9 +175,9 @@
       "signal": "偏多",
       "reason": "隨著公司大舉擴展海外產能與採購設備，顯示AI先進封裝需求強勁，有望推升全年EPS挑戰新高。此外，公司積極將AI技術導入內部流程以優化生產效率，有助於維持封測龍頭的領先優勢。",
       "tone": "bull",
-      "price": "710.00",
-      "price_change": "+0.00%",
-      "price_trend": "neutral-text",
+      "price": "713.00",
+      "price_change": "+0.42%",
+      "price_trend": "positive",
       "margin": {
         "margin_balance": 8719,
         "margin_change": -91,
