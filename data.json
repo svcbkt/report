@@ -1,75 +1,125 @@
 {
-  "generated_at": "2026-10-13T14:39:29.660503+08:00",
-  "prices_updated_at": "2026-10-13T15:18:26.726959+08:00",
-  "report_date_text": "2026 年 10 月 13 日，星期二",
+  "generated_at": "2026-10-14T12:40:39.048316+08:00",
+  "prices_updated_at": "2026-10-14T12:40:39.048316+08:00",
+  "report_date_text": "2026 年 10 月 14 日，星期三",
   "news_window": "10/13 13:30",
   "market_tone": "中性",
   "market_tone_class": "neutral-text",
   "market_summary": "今日尚無足夠新聞可供摘要，請留意開盤後市場實際反應。",
   "signal_row": [],
   "taiex": {
-    "value": "49,302",
-    "change": "-0.02%",
-    "change_pct": "-0.02%",
-    "tone": "negative",
+    "value": "48,913",
+    "change": "+1.18%",
+    "change_pct": "+1.18%",
+    "tone": "positive",
     "chart_points": [
-      49822.55078125,
       49806.37109375,
       49313.44140625,
-      49301.9609375
+      49301.9609375,
+      48341.30859375,
+      48913.30859375
     ]
   },
   "markets": [
     [
       "費城半導體",
-      "12,236.79",
-      "-2.67%",
+      "12,208.79",
+      "-0.23%",
       "negative"
     ],
     [
       "NASDAQ",
-      "27,245.90",
-      "-0.44%",
+      "27,204.38",
+      "-0.15%",
       "negative"
     ],
     [
       "S&P 500",
-      "7,807.24",
-      "-0.06%",
+      "7,805.45",
+      "-0.02%",
       "negative"
     ],
     [
       "日經 225",
-      "67,777.52",
-      "-1.82%",
-      "negative"
+      "68,365.95",
+      "+0.87%",
+      "positive"
     ],
     [
       "美元／台幣",
-      "32.14",
-      "+0.67%",
+      "32.17",
+      "+0.74%",
       "positive"
     ],
     [
       "台積電 ADR",
-      "444.35",
-      "-1.98%",
-      "negative"
+      "445.12",
+      "+0.17%",
+      "positive"
     ],
     [
       "布蘭特原油",
-      "105.45",
-      "-1.13%",
-      "negative"
+      "106.19",
+      "+0.47%",
+      "positive"
     ],
     [
       "美 10 年債",
-      "5.24%",
-      "-0.00",
+      "5.22%",
+      "-0.02",
       "negative"
     ]
   ],
   "news": [],
   "sectors": [],
-  "watchlist_holdings": []
+  "watchlist_holdings": [
+    {
+      "symbol": "2887",
+      "name": "台新金",
+      "signal": "偏多",
+      "reason": "台新金在股市震盪期間展現良好的金融防禦特性，獲得外資資金顯著逆勢加碼；加上Richart數位金融持續拓展海外消費業務，短期營運動能與籌碼面皆維持穩健。",
+      "tone": "bull",
+      "price": "42.45",
+      "price_change": "-1.28%",
+      "price_trend": "negative",
+      "margin": {
+        "margin_balance": 41566,
+        "margin_change": -544,
+        "short_balance": 1189,
+        "short_change": 38
+      }
+    },
+    {
+      "symbol": "3189",
+      "name": "景碩",
+      "signal": "中性",
+      "reason": "受惠高階PCB與AI伺服器長線需求推升，外資調升景碩目標價；惟短期內ABF載板族群受產能擴張速度檢視影響，股價出現拉回修正壓力，短期呈現震盪整理格局。",
+      "tone": "watch",
+      "price": "1,035.00",
+      "price_change": "-0.48%",
+      "price_trend": "negative",
+      "margin": {
+        "margin_balance": 16102,
+        "margin_change": -389,
+        "short_balance": 545,
+        "short_change": -44
+      }
+    },
+    {
+      "symbol": "2454",
+      "name": "聯發科",
+      "signal": "中性",
+      "reason": "短期股價雖受大盤與外資賣壓影響呈現連續修正，但公司持續擴展AI網通佈局並獲得法人看好，中長期營運基本面依然穩固。",
+      "tone": "watch",
+      "price": "4,525.00",
+      "price_change": "+0.00%",
+      "price_trend": "neutral-text",
+      "margin": {
+        "margin_balance": 11261,
+        "margin_change": -105,
+        "short_balance": 30,
+        "short_change": 2
+      }
+    }
+  ]
 }
