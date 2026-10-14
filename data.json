@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-14T12:40:39.048316+08:00",
-  "prices_updated_at": "2026-10-14T12:40:39.048316+08:00",
+  "prices_updated_at": "2026-10-14T13:43:37.559066+08:00",
   "report_date_text": "2026 年 10 月 14 日，星期三",
   "news_window": "10/13 13:30",
   "market_tone": "中性",
@@ -8,16 +8,16 @@
   "market_summary": "今日尚無足夠新聞可供摘要，請留意開盤後市場實際反應。",
   "signal_row": [],
   "taiex": {
-    "value": "48,913",
-    "change": "+1.18%",
-    "change_pct": "+1.18%",
+    "value": "48,791",
+    "change": "+0.93%",
+    "change_pct": "+0.93%",
     "tone": "positive",
     "chart_points": [
       49806.37109375,
       49313.44140625,
       49301.9609375,
       48341.30859375,
-      48913.30859375
+      48791.23828125
     ]
   },
   "markets": [
@@ -41,14 +41,14 @@
     ],
     [
       "日經 225",
-      "68,365.95",
-      "+0.87%",
+      "68,076.01",
+      "+0.44%",
       "positive"
     ],
     [
       "美元／台幣",
-      "32.17",
-      "+0.74%",
+      "32.19",
+      "+0.81%",
       "positive"
     ],
     [
@@ -59,8 +59,8 @@
     ],
     [
       "布蘭特原油",
-      "106.19",
-      "+0.47%",
+      "106.25",
+      "+0.53%",
       "positive"
     ],
     [
@@ -79,8 +79,8 @@
       "signal": "偏多",
       "reason": "台新金在股市震盪期間展現良好的金融防禦特性，獲得外資資金顯著逆勢加碼；加上Richart數位金融持續拓展海外消費業務，短期營運動能與籌碼面皆維持穩健。",
       "tone": "bull",
-      "price": "42.45",
-      "price_change": "-1.28%",
+      "price": "42.55",
+      "price_change": "-1.05%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 41566,
@@ -95,9 +95,9 @@
       "signal": "中性",
       "reason": "受惠高階PCB與AI伺服器長線需求推升，外資調升景碩目標價；惟短期內ABF載板族群受產能擴張速度檢視影響，股價出現拉回修正壓力，短期呈現震盪整理格局。",
       "tone": "watch",
-      "price": "1,035.00",
-      "price_change": "-0.48%",
-      "price_trend": "negative",
+      "price": "1,050.00",
+      "price_change": "+0.96%",
+      "price_trend": "positive",
       "margin": {
         "margin_balance": 16102,
         "margin_change": -389,
@@ -111,9 +111,9 @@
       "signal": "中性",
       "reason": "短期股價雖受大盤與外資賣壓影響呈現連續修正，但公司持續擴展AI網通佈局並獲得法人看好，中長期營運基本面依然穩固。",
       "tone": "watch",
-      "price": "4,525.00",
-      "price_change": "+0.00%",
-      "price_trend": "neutral-text",
+      "price": "4,510.00",
+      "price_change": "-0.33%",
+      "price_trend": "negative",
       "margin": {
         "margin_balance": 11261,
         "margin_change": -105,
