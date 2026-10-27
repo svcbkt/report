@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-27T12:48:58.378225+08:00",
-  "prices_updated_at": "2026-10-27T12:48:58.378225+08:00",
+  "prices_updated_at": "2026-10-27T13:55:24.534615+08:00",
   "report_date_text": "2026 年 10 月 27 日，星期二",
   "news_window": "10/26 13:30",
   "market_tone": "中性",
@@ -27,15 +27,15 @@
     }
   ],
   "taiex": {
-    "value": "45,985",
-    "change": "-0.12%",
-    "change_pct": "-0.12%",
-    "tone": "negative",
+    "value": "46,096",
+    "change": "+0.12%",
+    "change_pct": "+0.12%",
+    "tone": "positive",
     "chart_points": [
       46292.9296875,
       46887.76953125,
       46041.4296875,
-      45984.58984375
+      46096.23046875
     ]
   },
   "markets": [
@@ -59,8 +59,8 @@
     ],
     [
       "日經 225",
-      "63,223.77",
-      "+1.66%",
+      "63,164.39",
+      "+1.57%",
       "positive"
     ],
     [
@@ -77,8 +77,8 @@
     ],
     [
       "布蘭特原油",
-      "109.70",
-      "-5.28%",
+      "109.92",
+      "-5.09%",
       "negative"
     ],
     [
@@ -126,9 +126,9 @@
       "signal": "偏多",
       "reason": "受惠於高端私人銀行業務佈局與金金併效益，帶動市值與營運想像空間，整體獲利動能維持強勁。惟短期內仍需關注同業高利競存對淨利息收益率（NIM）帶來的成本壓力。",
       "tone": "bull",
-      "price": "41.85",
-      "price_change": "-0.59%",
-      "price_trend": "negative",
+      "price": "42.20",
+      "price_change": "+0.24%",
+      "price_trend": "positive",
       "margin": {
         "margin_balance": 42022,
         "margin_change": -883,
@@ -142,8 +142,8 @@
       "signal": "偏多",
       "reason": "景碩受惠ABF與BT載板需求增溫及價格調漲效應，明年營收預估有三成以上的成長空間。在AI及大尺寸晶片規格升級帶動下，產業中長期趨勢持續向上。",
       "tone": "bull",
-      "price": "943.00",
-      "price_change": "-4.36%",
+      "price": "941.00",
+      "price_change": "-4.56%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 11721,
@@ -158,8 +158,8 @@
       "signal": "中性",
       "reason": "短期因法說會召開在即，市場資金出現觀望與短線調節賣壓使股價承壓。惟外資與法人仍看好其身為IC設計龍頭的長線成長潛力，基本面發展長期趨勢依然正向。",
       "tone": "watch",
-      "price": "3,975.00",
-      "price_change": "-0.87%",
+      "price": "3,960.00",
+      "price_change": "-1.25%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 11788,
@@ -174,8 +174,8 @@
       "signal": "偏多",
       "reason": "受惠先進封裝產能吃緊與AI供應鏈拉貨強勁，第四季毛利率有機會衝高至23%。在半導體大廠資本支出持續擴大帶動下，公司短期營運動能強勁且展望清晰。",
       "tone": "bull",
-      "price": "652.00",
-      "price_change": "-0.31%",
+      "price": "651.00",
+      "price_change": "-0.46%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 9792,
