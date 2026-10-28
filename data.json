@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-28T13:21:57.521592+08:00",
-  "prices_updated_at": "2026-10-28T13:21:57.521592+08:00",
+  "prices_updated_at": "2026-10-28T14:34:24.469492+08:00",
   "report_date_text": "2026 年 10 月 28 日，星期三",
   "news_window": "10/27 13:30",
   "market_tone": "中性",
@@ -27,15 +27,15 @@
     }
   ],
   "taiex": {
-    "value": "46,966",
-    "change": "+1.89%",
-    "change_pct": "+1.89%",
+    "value": "47,036",
+    "change": "+2.04%",
+    "change_pct": "+2.04%",
     "tone": "positive",
     "chart_points": [
       46887.76953125,
       46041.4296875,
       46096.23046875,
-      46966.5
+      47035.578125
     ]
   },
   "markets": [
@@ -59,14 +59,14 @@
     ],
     [
       "日經 225",
-      "63,946.39",
-      "+1.07%",
+      "64,070.96",
+      "+1.27%",
       "positive"
     ],
     [
       "美元／台幣",
-      "32.43",
-      "-0.33%",
+      "32.42",
+      "-0.35%",
       "negative"
     ],
     [
@@ -77,8 +77,8 @@
     ],
     [
       "布蘭特原油",
-      "110.85",
-      "-2.66%",
+      "111.24",
+      "-2.32%",
       "negative"
     ],
     [
@@ -126,8 +126,8 @@
       "signal": "中性",
       "reason": "近期新聞多為職棒封王行銷與獲獎等形象宣傳，顯現業務拓展積極；配合金融業整體獲利亮眼，公司短期營運維持穩健。然而實質股價動能仍需視金控核心利息與手續費收入表現而定。",
       "tone": "watch",
-      "price": "42.15",
-      "price_change": "-0.12%",
+      "price": "42.00",
+      "price_change": "-0.47%",
       "price_trend": "negative",
       "margin": {
         "margin_balance": 41926,
@@ -142,8 +142,8 @@
       "signal": "偏多",
       "reason": "受惠AI算力推升先進封裝需求與ABF載板產業復甦，景碩積極擴大資本支出並深化新材料研發，短期營運動能保持正向。",
       "tone": "bull",
-      "price": "1,010.00",
-      "price_change": "+7.33%",
+      "price": "1,035.00",
+      "price_change": "+9.99%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 11598,
@@ -158,8 +158,8 @@
       "signal": "偏多",
       "reason": "聯發科近期受惠於Anthropic算力需求引爆ASIC商機，帶動股價自低檔強勢反彈。營收與獲利展望仍需視手機晶片復甦力道及AI新業務的實質挹注而定。",
       "tone": "bull",
-      "price": "4,220.00",
-      "price_change": "+6.57%",
+      "price": "4,235.00",
+      "price_change": "+6.94%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 11795,
@@ -174,8 +174,8 @@
       "signal": "偏多",
       "reason": "受惠先進封裝需求強勁與LEAP業務推升，日月光前三季營收表現亮眼並持續擴建廠務產能。短期在記憶體封測需求支撐及先進封裝接棒下，第四季至明年營運展望樂觀。",
       "tone": "bull",
-      "price": "692.00",
-      "price_change": "+6.30%",
+      "price": "695.00",
+      "price_change": "+6.76%",
       "price_trend": "positive",
       "margin": {
         "margin_balance": 9903,
