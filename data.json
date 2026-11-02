@@ -1,75 +1,109 @@
 {
-  "generated_at": "2026-10-30T13:30:30.168457+08:00",
-  "prices_updated_at": "2026-10-30T14:43:39.781380+08:00",
-  "report_date_text": "2026 年 10 月 30 日，星期五",
-  "news_window": "10/30 13:30",
+  "generated_at": "2026-11-02T13:44:14.492074+08:00",
+  "prices_updated_at": "2026-11-02T13:44:14.492074+08:00",
+  "report_date_text": "2026 年 11 月 02 日，星期一",
+  "news_window": "11/02 13:30",
   "market_tone": "中性",
   "market_tone_class": "neutral-text",
   "market_summary": "今日尚無足夠新聞可供摘要，請留意開盤後市場實際反應。",
   "signal_row": [],
   "taiex": {
-    "value": "45,212",
-    "change": "-2.49%",
-    "change_pct": "-2.49%",
+    "value": "45,019",
+    "change": "-0.43%",
+    "change_pct": "-0.43%",
     "tone": "negative",
     "chart_points": [
       46096.23046875,
       47035.578125,
       46368.328125,
-      45211.828125
+      45211.828125,
+      45018.7109375
     ]
   },
   "markets": [
     [
       "費城半導體",
-      "11,518.20",
-      "-1.42%",
+      "10,688.80",
+      "-7.20%",
       "negative"
     ],
     [
       "NASDAQ",
-      "26,184.72",
-      "-1.38%",
+      "25,437.00",
+      "-2.86%",
       "negative"
     ],
     [
       "S&P 500",
-      "7,720.39",
-      "-0.30%",
+      "7,580.07",
+      "-1.82%",
       "negative"
     ],
     [
       "日經 225",
-      "63,082.27",
-      "-2.44%",
+      "63,232.67",
+      "-0.09%",
       "negative"
     ],
     [
       "美元／台幣",
-      "32.62",
-      "+0.73%",
-      "positive"
+      "32.55",
+      "-0.04%",
+      "negative"
     ],
     [
       "台積電 ADR",
-      "431.81",
-      "-1.75%",
+      "406.13",
+      "-5.95%",
       "negative"
     ],
     [
       "布蘭特原油",
-      "111.51",
-      "-2.93%",
+      "109.66",
+      "-6.78%",
       "negative"
     ],
     [
       "美 10 年債",
-      "4.99%",
+      "4.93%",
       "-0.06",
       "negative"
     ]
   ],
   "news": [],
   "sectors": [],
-  "watchlist_holdings": []
+  "watchlist_holdings": [
+    {
+      "symbol": "3189",
+      "name": "景碩",
+      "signal": "偏空",
+      "reason": "受台股大盤與半導體龍頭股拉回影響，景碩短期走勢易隨整體電子族群承壓震盪。中長期營運展望仍視高階ABF載板需求復甦力道及AI相關產品出貨狀況而定。",
+      "tone": "bear",
+      "price": "909.00",
+      "price_change": "-2.47%",
+      "price_trend": "negative",
+      "margin": {
+        "margin_balance": 12956,
+        "margin_change": -196,
+        "short_balance": 275,
+        "short_change": -24
+      }
+    },
+    {
+      "symbol": "2454",
+      "name": "聯發科",
+      "signal": "中性",
+      "reason": "全球科技巨頭持續擴大AI資本支出，長期有利於半導體與晶片設計產業發展。惟近期缺乏公司直接新聞，短期展望仍回歸智慧型手機市場復甦狀況與旗艦晶片拉貨動能。",
+      "tone": "watch",
+      "price": "3,980.00",
+      "price_change": "+1.66%",
+      "price_trend": "positive",
+      "margin": {
+        "margin_balance": 12379,
+        "margin_change": 162,
+        "short_balance": 29,
+        "short_change": 6
+      }
+    }
+  ]
 }
