@@ -1,182 +1,146 @@
 {
-  "generated_at": "2026-11-06T14:17:55.448305+08:00",
-  "prices_updated_at": "2026-11-06T15:36:00.248972+08:00",
-  "report_date_text": "2026 年 11 月 06 日，星期五",
-  "news_window": "11/06 13:30",
-  "market_tone": "偏空",
-  "market_tone_class": "negative",
-  "market_summary": "短線受外資大規模提款與台幣貶值衝擊，大盤呈劇烈震盪與恐慌性修正。雖有低檔買盤拉出下影線，但籌碼面尚待沉澱，短期走勢仍偏弱打底。",
+  "generated_at": "2026-11-09T13:56:48.715399+08:00",
+  "prices_updated_at": "2026-11-09T13:56:48.715399+08:00",
+  "report_date_text": "2026 年 11 月 09 日，星期一",
+  "news_window": "11/09 13:30",
+  "market_tone": "偏多",
+  "market_tone_class": "positive",
+  "market_summary": "受國安基金進場護盤與台積電強勢領漲激勵，台股短期上演強烈報復性反彈。隨著逢高解套賣壓與獲利結算陸續出籠，預估短期大盤將維持高檔劇烈震盪格局。",
   "signal_row": [
     {
-      "label": "美股焦點",
-      "text": "偏空",
-      "arrow": "↓",
-      "tone": "negative"
-    },
-    {
       "label": "台股焦點",
-      "text": "偏空",
-      "arrow": "↓",
-      "tone": "negative"
+      "text": "偏多",
+      "arrow": "↑",
+      "tone": "positive"
     }
   ],
   "taiex": {
-    "value": "39,702",
-    "change": "-4.51%",
-    "change_pct": "-4.51%",
-    "tone": "negative",
+    "value": "41,662",
+    "change": "+4.94%",
+    "change_pct": "+4.94%",
+    "tone": "positive",
     "chart_points": [
-      44920.140625,
       43307.5390625,
       42948.91015625,
       41574.71875,
-      39701.640625
+      39701.640625,
+      41661.69921875
     ]
   },
   "markets": [
     [
       "費城半導體",
-      "9,011.14",
-      "-12.25%",
-      "negative"
+      "9,390.25",
+      "+4.21%",
+      "positive"
     ],
     [
       "NASDAQ",
-      "24,315.00",
-      "-5.52%",
-      "negative"
+      "24,579.43",
+      "+1.09%",
+      "positive"
     ],
     [
       "S&P 500",
-      "7,353.73",
-      "-4.36%",
-      "negative"
+      "7,376.86",
+      "+0.31%",
+      "positive"
     ],
     [
       "日經 225",
-      "57,434.77",
-      "-5.96%",
-      "negative"
+      "58,836.00",
+      "+2.44%",
+      "positive"
     ],
     [
       "美元／台幣",
-      "32.84",
-      "+0.06%",
-      "positive"
+      "32.83",
+      "-0.83%",
+      "negative"
     ],
     [
       "台積電 ADR",
-      "353.10",
-      "-10.78%",
-      "negative"
-    ],
-    [
-      "布蘭特原油",
-      "99.34",
-      "+1.07%",
+      "375.44",
+      "+6.33%",
       "positive"
     ],
     [
-      "美 10 年債",
-      "4.84%",
-      "-0.06",
+      "布蘭特原油",
+      "97.32",
+      "-1.02%",
       "negative"
+    ],
+    [
+      "美 10 年債",
+      "4.86%",
+      "+0.02",
+      "positive"
     ]
   ],
   "news": [
     [
-      "費半指數重挫12.25%衝擊半導體",
-      "受美股費半指數劇烈崩跌影響，市場恐慌情緒蔓延，短期內台股大盤將面臨沉重回檔與震盪尋底壓力。",
-      "偏空",
-      "negative",
-      "美股焦點"
-    ],
-    [
-      "台股暴跌1873點失守4萬點關卡",
-      "受美股費半指數劇烈崩跌影響，市場恐慌情緒蔓延，短期內台股大盤將面臨沉重回檔與震盪尋底壓力。",
-      "偏空",
-      "negative",
-      "美股焦點"
-    ],
-    [
-      "台股恐慌性暴跌，金管會研議救市限空令",
-      "短線受外資大規模提款與台幣貶值衝擊，大盤呈劇烈震盪與恐慌性修正。雖有低檔買盤拉出下影線，但籌碼面尚待沉澱，短期走勢仍偏弱打底。",
-      "偏空",
-      "negative",
+      "國安基金護盤奏效，台股大漲1960點",
+      "受國安基金進場護盤與台積電強勢領漲激勵，台股短期上演強烈報復性反彈。隨著逢高解套賣壓與獲利結算陸續出籠，預估短期大盤將維持高檔劇烈震盪格局。",
+      "偏多",
+      "positive",
       "台股焦點"
     ],
     [
-      "外資爆量賣超，新台幣匯率貶破33元關卡",
-      "短線受外資大規模提款與台幣貶值衝擊，大盤呈劇烈震盪與恐慌性修正。雖有低檔買盤拉出下影線，但籌碼面尚待沉澱，短期走勢仍偏弱打底。",
-      "偏空",
-      "negative",
+      "台積電大漲逾4%收2235元帶領反彈",
+      "受國安基金進場護盤與台積電強勢領漲激勵，台股短期上演強烈報復性反彈。隨著逢高解套賣壓與獲利結算陸續出籠，預估短期大盤將維持高檔劇烈震盪格局。",
+      "偏多",
+      "positive",
       "台股焦點"
     ]
   ],
   "sectors": [],
   "watchlist_holdings": [
     {
-      "symbol": "2887",
-      "name": "台新金",
-      "signal": "偏空",
-      "reason": "短期內台新金股價受金融族群回檔與併購議題不確定性影響表現承壓。然而信用卡及消費金融業務持續維繫基本盤，中長期營運展望仍視合併綜效與整體獲利表現而定。",
-      "tone": "bear",
-      "price": "38.45",
-      "price_change": "-4.11%",
-      "price_trend": "negative",
-      "margin": {
-        "margin_balance": 39772,
-        "margin_change": 147,
-        "short_balance": 1229,
-        "short_change": 26
-      }
-    },
-    {
       "symbol": "3189",
       "name": "景碩",
       "signal": "偏多",
-      "reason": "受益於MSCI季度調整題材加持，景碩獲得法人資金關注。若順利納入成分股，短期內有機會吸引被動式基金買盤進駐，提振股價動能。",
+      "reason": "受國安基金護盤與台積電領漲激勵，半導體產業氛圍顯著回升，景碩作為重要載板廠可望受惠供應鏈整體評價修復。短期營運將隨半導體庫存去化與先進封裝需求漸次回穩。",
       "tone": "bull",
-      "price": "671.00",
-      "price_change": "-9.32%",
-      "price_trend": "negative",
+      "price": "690.00",
+      "price_change": "+2.83%",
+      "price_trend": "positive",
       "margin": {
-        "margin_balance": 12349,
-        "margin_change": -33,
-        "short_balance": 239,
-        "short_change": 87
+        "margin_balance": 11587,
+        "margin_change": -762,
+        "short_balance": 129,
+        "short_change": -110
       }
     },
     {
       "symbol": "2454",
       "name": "聯發科",
-      "signal": "偏空",
-      "reason": "短線受大盤系統性暴跌與半導體板塊修正影響，股價承壓偏弱。中長期營運表現仍取決於旗艦手機晶片出貨與AI新應用之拓展狀況。",
-      "tone": "bear",
-      "price": "3,390.00",
-      "price_change": "-2.02%",
-      "price_trend": "negative",
+      "signal": "偏多",
+      "reason": "受政策利多刺激與國安基金進場提振市場信心，聯發科短期展現強烈反彈動能。中期展望則取決於智慧型手機與AI晶片需求之實質復甦力道。",
+      "tone": "bull",
+      "price": "3,725.00",
+      "price_change": "+9.88%",
+      "price_trend": "positive",
       "margin": {
-        "margin_balance": 11891,
-        "margin_change": -688,
-        "short_balance": 51,
-        "short_change": 35
+        "margin_balance": 11637,
+        "margin_change": -254,
+        "short_balance": 39,
+        "short_change": -12
       }
     },
     {
       "symbol": "3711",
       "name": "日月光投控",
-      "signal": "偏空",
-      "reason": "雖然AI相關訂單需求強勁，但受整體大盤大幅修正與短線逆風干擾，日月光投控短期股價面臨較大的回檔壓力。中長期營運表現仍取決於先進封裝產能的持續擴充與實質營收貢獻。",
-      "tone": "bear",
-      "price": "527.00",
-      "price_change": "-7.87%",
-      "price_trend": "negative",
+      "signal": "偏多",
+      "reason": "受惠國安基金護盤與台積電強勢反彈，整體半導體供應鏈市場情緒顯著回升。日月光投控身為封測龍頭，短期可望隨AI封裝需求熱絡與大盤資金回流迎來估值修復。",
+      "tone": "bull",
+      "price": "561.00",
+      "price_change": "+6.45%",
+      "price_trend": "positive",
       "margin": {
-        "margin_balance": 11359,
-        "margin_change": -86,
-        "short_balance": 98,
-        "short_change": -84
+        "margin_balance": 11414,
+        "margin_change": 55,
+        "short_balance": 89,
+        "short_change": -9
       }
     }
   ]
