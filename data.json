@@ -1,75 +1,183 @@
 {
-  "generated_at": "2026-11-19T15:05:20.788183+08:00",
-  "prices_updated_at": "2026-11-19T16:19:52.197529+08:00",
-  "report_date_text": "2026 年 11 月 19 日，星期四",
-  "news_window": "11/19 13:30",
-  "market_tone": "中性",
-  "market_tone_class": "neutral-text",
-  "market_summary": "今日尚無足夠新聞可供摘要，請留意開盤後市場實際反應。",
-  "signal_row": [],
+  "generated_at": "2026-11-20T14:57:33.235502+08:00",
+  "prices_updated_at": "2026-11-20T14:57:33.235502+08:00",
+  "report_date_text": "2026 年 11 月 20 日，星期五",
+  "news_window": "11/20 13:30",
+  "market_tone": "偏空",
+  "market_tone_class": "negative",
+  "market_summary": "受到台積電重挫與市場恐慌情緒延燒影響，台股技術面受創嚴重。短期內大盤預期將持續尋求底部支撐，走勢以劇烈震盪築底為主。",
+  "signal_row": [
+    {
+      "label": "美股焦點",
+      "text": "偏空",
+      "arrow": "↓",
+      "tone": "negative"
+    },
+    {
+      "label": "台股焦點",
+      "text": "偏空",
+      "arrow": "↓",
+      "tone": "negative"
+    }
+  ],
   "taiex": {
-    "value": "40,195",
-    "change": "+0.26%",
-    "change_pct": "+0.26%",
-    "tone": "positive",
+    "value": "36,033",
+    "change": "-6.23%",
+    "change_pct": "-6.23%",
+    "tone": "negative",
     "chart_points": [
-      43675.12109375,
       41040.078125,
       40092.109375,
-      40194.91015625
+      40194.91015625,
+      38426.890625,
+      36033.2890625
     ]
   },
   "markets": [
     [
       "費城半導體",
-      "9,652.80",
-      "+0.10%",
-      "positive"
+      "9,419.72",
+      "-2.41%",
+      "negative"
     ],
     [
       "NASDAQ",
-      "24,429.88",
-      "+0.42%",
-      "positive"
+      "23,879.20",
+      "-2.25%",
+      "negative"
     ],
     [
       "S&P 500",
-      "7,323.63",
-      "-0.23%",
+      "7,175.83",
+      "-2.02%",
       "negative"
     ],
     [
       "日經 225",
-      "59,444.21",
-      "+0.71%",
-      "positive"
+      "56,436.65",
+      "-5.06%",
+      "negative"
     ],
     [
       "美元／台幣",
-      "32.92",
-      "+0.03%",
+      "32.95",
+      "+0.07%",
       "positive"
     ],
     [
       "台積電 ADR",
-      "362.62",
-      "+0.81%",
-      "positive"
+      "352.09",
+      "-2.90%",
+      "negative"
     ],
     [
       "布蘭特原油",
-      "89.48",
-      "-2.69%",
+      "89.86",
+      "-2.30%",
       "negative"
     ],
     [
       "美 10 年債",
-      "5.07%",
-      "-0.04",
+      "5.05%",
+      "-0.01",
       "negative"
     ]
   ],
-  "news": [],
+  "news": [
+    [
+      "台股暴跌逾二千點，科技權值股承壓",
+      "台股遭逢歷史級單日重挫，短線市場恐慌情緒高漲，大盤修正壓力沉重。預期短期將維持高波動震盪，需觀察權值股能否儘速止跌回穩。",
+      "偏空",
+      "negative",
+      "美股焦點"
+    ],
+    [
+      "Anthropic IPO登場，AI族群評價分化",
+      "台股遭逢歷史級單日重挫，短線市場恐慌情緒高漲，大盤修正壓力沉重。預期短期將維持高波動震盪，需觀察權值股能否儘速止跌回穩。",
+      "偏空",
+      "negative",
+      "美股焦點"
+    ],
+    [
+      "台股重挫2393點，創史上第3大收盤跌點",
+      "受到台積電重挫與市場恐慌情緒延燒影響，台股技術面受創嚴重。短期內大盤預期將持續尋求底部支撐，走勢以劇烈震盪築底為主。",
+      "偏空",
+      "negative",
+      "台股焦點"
+    ],
+    [
+      "台積電重摔百元，險守2000元整數關卡",
+      "受到台積電重挫與市場恐慌情緒延燒影響，台股技術面受創嚴重。短期內大盤預期將持續尋求底部支撐，走勢以劇烈震盪築底為主。",
+      "偏空",
+      "negative",
+      "台股焦點"
+    ]
+  ],
   "sectors": [],
-  "watchlist_holdings": []
+  "watchlist_holdings": [
+    {
+      "symbol": "2887",
+      "name": "台新金",
+      "signal": "中性",
+      "reason": "台新銀與新光銀合併案步入實質執行階段，長期有助於擴大資產規模與客戶基礎，惟短期營運展望仍受整體大盤大幅拉回及雙方整合過渡期成本交織影響。",
+      "tone": "watch",
+      "price": "33.95",
+      "price_change": "-4.90%",
+      "price_trend": "negative",
+      "margin": {
+        "margin_balance": 34266,
+        "margin_change": -1584,
+        "short_balance": 1245,
+        "short_change": 100
+      }
+    },
+    {
+      "symbol": "3189",
+      "name": "景碩",
+      "signal": "偏空",
+      "reason": "受大盤重挫與載板族群同步跌停影響，短期股價承壓明顯，市場正重新審視ABF載板的成長動能與評價空間。在整體產業趨勢與籌碼面未明朗前，短期展望偏向保守觀望。",
+      "tone": "bear",
+      "price": "470.00",
+      "price_change": "-9.96%",
+      "price_trend": "negative",
+      "margin": {
+        "margin_balance": 15618,
+        "margin_change": 486,
+        "short_balance": 299,
+        "short_change": -97
+      }
+    },
+    {
+      "symbol": "2454",
+      "name": "聯發科",
+      "signal": "偏空",
+      "reason": "受到大盤系統性殺盤與美晶片管制政策利空衝擊，聯發科短期股價大幅承壓。中長期仍需觀察旗艦手機晶片出貨進度及AI ASIC業務是否受實質政策波及。",
+      "tone": "bear",
+      "price": "3,350.00",
+      "price_change": "-9.95%",
+      "price_trend": "negative",
+      "margin": {
+        "margin_balance": 11190,
+        "margin_change": -503,
+        "short_balance": 42,
+        "short_change": 9
+      }
+    },
+    {
+      "symbol": "3711",
+      "name": "日月光投控",
+      "signal": "中性",
+      "reason": "日月光擴大投資仁武高階測試園區，展現對先進封裝與AI需求的長期信心。然而短期內大盤面臨系統性重挫，股價難免受整體半導體族群修正影響。",
+      "tone": "watch",
+      "price": "457.00",
+      "price_change": "-9.33%",
+      "price_trend": "negative",
+      "margin": {
+        "margin_balance": 11094,
+        "margin_change": -809,
+        "short_balance": 298,
+        "short_change": -41
+      }
+    }
+  ]
 }
